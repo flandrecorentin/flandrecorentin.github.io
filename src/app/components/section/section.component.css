@@ -1,0 +1,345 @@
+
+
+#section{
+  border: var(--black1) solid 5px;
+  margin: 20px 38px;
+  background-color: var(--color3);
+  height: 230px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 5px 4px 3px var(--black3);
+  border-radius: 5px;
+}
+#section:hover{
+  animation: sectionAnim ease-in-out 1s infinite;
+  background: var(--color4);
+  cursor: pointer;
+}
+@keyframes  sectionAnim{
+  from{
+    transform: scale(1.0);
+  }
+  50%{
+    transform: scale(1.05);
+  }
+  to{
+    transform: scale(1.0);
+  }
+}
+#h3-p{
+  max-width: 200px;
+  margin: 10px;
+  border-radius: 15px;
+  background-color: var(--black4);
+}
+#h3-section{
+}
+#p-section{
+
+}
+svg{
+  /*border: red solid 2px;*/
+}
+.text-align-center{
+  text-align: center;
+}
+
+
+
+/*ANIMATION SVG CURRICULUM*/
+.algo{
+  fill: white;
+}
+#algo1{
+  animation: algoAnimation1 10s 1s infinite;
+}
+@keyframes algoAnimation1 {
+  0% {
+    fill: white;
+  }
+  63%{
+    fill: white;
+  }
+  64%{
+    fill: #5eae55;
+  }
+  90%{
+    fill: #5eae55;
+  }
+  91%{
+    fill: white;
+  }
+}
+
+/*2*/
+#algo2{
+  animation: algoAnimation2 10s 1s infinite;
+}
+@keyframes algoAnimation2 {
+  0% {
+    fill: white;
+  }
+  14%{
+    fill: white;
+  }
+  15%{
+    fill: #5eae55;
+  }
+  90%{
+    fill: #5eae55;
+  }
+  91%{
+    fill: white;
+  }
+}
+
+
+/*1*/
+#algo3{
+  animation: algoAnimation3 10s 1s infinite;
+}
+@keyframes algoAnimation3 {
+  0% {
+    fill: white;
+  }
+  7%{
+    fill: white;
+  }
+  8%{
+    fill: red;
+  }
+  90%{
+    fill: red;
+  }
+  91%{
+    fill: white;
+  }
+}
+
+/*5*/
+#algo4{
+  animation: algoAnimation4 10s 1s infinite;
+}
+@keyframes algoAnimation4 {
+  0% {
+    fill: white;
+  }
+  42%{
+    fill: white;
+  }
+  43%{
+    fill: #5eae55;
+  }
+  90%{
+    fill: #5eae55;
+  }
+  91%{
+    fill: white;
+  }
+}
+
+
+
+/*6*/
+#algo5{
+  animation: algoAnimation5 10s 1s infinite;
+}
+@keyframes algoAnimation5 {
+  0% {
+    fill: white;
+  }
+  49%{
+    fill: white;
+  }
+  50%{
+    fill: #5eae55;
+  }
+  90%{
+    fill: #5eae55;
+  }
+  91%{
+    fill: white;
+  }
+}
+
+/*3*/
+#algo6{
+  animation: algoAnimation6 10s 1s infinite;
+}
+@keyframes algoAnimation6 {
+  0% {
+    fill: white;
+  }
+  28%{
+    fill: white;
+  }
+  29%{
+    fill: #5eae55;
+  }
+  90%{
+    fill: #5eae55;
+  }
+  91%{
+    fill: white;
+  }
+}
+
+
+/*3*/
+#algo6{
+  animation: algoAnimation6 10s 1s infinite;
+}
+@keyframes algoAnimation6 {
+  0% {
+    fill: white;
+  }
+  28%{
+    fill: white;
+  }
+  29%{
+    fill: #5eae55;
+  }
+  90%{
+    fill: #5eae55;
+  }
+  91%{
+    fill: white;
+  }
+}
+
+
+/*2*/
+#algo7{
+  animation: algoAnimation7 10s 1s infinite;
+}
+@keyframes algoAnimation7 {
+  0% {
+    fill: white;
+  }
+  21%{
+    fill: white;
+  }
+  22%{
+    fill: #5eae55;
+  }
+  90%{
+    fill: #5eae55;
+  }
+  91%{
+    fill: white;
+  }
+}
+
+
+/*9*/
+#algo8{
+  animation: algoAnimation8 10s 1s infinite;
+}
+@keyframes algoAnimation8 {
+  0% {
+    fill: white;
+  }
+  70%{
+    fill: white;
+  }
+  71%{
+    fill: #5eae55;
+  }
+  90%{
+    fill: #5eae55;
+  }
+  91%{
+    fill: white;
+  }
+}
+
+/*4*/
+#algo9{
+  animation: algoAnimation9 10s 1s infinite;
+}
+@keyframes algoAnimation9 {
+  0% {
+    fill: white;
+  }
+  35%{
+    fill: white;
+  }
+  36%{
+    fill: #5eae55;
+  }
+  90%{
+    fill: #5eae55;
+  }
+  91%{
+    fill: white;
+  }
+}
+
+
+/*10*/
+#algo10{
+  animation: algoAnimation10 10s 1s infinite;
+}
+@keyframes algoAnimation10 {
+  0% {
+    fill: white;
+  }
+  77%{
+    fill: white;
+  }
+  78%{
+    fill: #5eae55;
+  }
+  90%{
+    fill: #5eae55;
+  }
+  91%{
+    fill: white;
+  }
+}
+
+
+/*11*/
+#algo11{
+  animation: algoAnimation11 10s 1s infinite;
+}
+@keyframes algoAnimation11 {
+  0% {
+    fill: white;
+  }
+  84%{
+    fill: white;
+  }
+  85%{
+    fill: #5eae55;
+  }
+  90%{
+    fill: #5eae55;
+  }
+  91%{
+    fill: white;
+  }
+
+}
+
+/*7*/
+#algo12{
+  animation: algoAnimation12 10s 1s infinite;
+}
+@keyframes algoAnimation12 {
+  0% {
+    fill: white;
+  }
+  56%{
+    fill: white;
+  }
+  57%{
+    fill: #5eae55;
+  }
+  90%{
+    fill: #5eae55;
+  }
+  91%{
+    fill: white;
+  }
+}

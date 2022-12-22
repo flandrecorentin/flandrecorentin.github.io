@@ -4,11 +4,14 @@
   box-shadow: 3px 4px 3px var(--black3);
   border-radius: 4px;
   padding: 10px 20px;
-  max-width: 100px;
+  max-width: 150px;
   background-color: var(--color3);
   position: absolute;
   margin-top: 150px;
   /*transform: translateZ(50%);*/
+}
+h3{
+  font-size: 1.4rem;
 }
 .route-label{
   width: 5px;
@@ -44,4 +47,11 @@
 .route-label-div-left{
   left: 15%;
   transform: translateX(-50%)  translateY(-50%);
+  cursor: pointer;
+}
+#part-section-route:hover{
+  background-color: var(--color4);
+  color: var(--white1);
+  transition: 0.2s;
+  cursor: pointer;
 }
