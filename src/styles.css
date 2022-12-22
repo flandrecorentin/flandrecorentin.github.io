@@ -15,6 +15,7 @@ h1{
 :root {
   --color1: rgb(203, 215, 243);
   --color2: rgb(6, 12, 44);
+  --color3 : rgb(229, 229, 229);
 
   --black1: rgb(0, 0, 0);
   --black2: rgba(0, 0, 0, 0.5);
@@ -25,6 +26,8 @@ h1{
   --white2: rgba(255, 255, 255, 0.5);
   --white3: rgba(255, 255, 255, 0.25);
   --white4: rgba(255, 255, 255, 0.1);
+
+  --transparent: rgba(255, 255, 255, 0);
 }
 
 .items-align{

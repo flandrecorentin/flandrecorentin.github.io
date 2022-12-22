@@ -15,6 +15,8 @@
 }
 .styleFooter:hover{
   background-color: var(--black3);
+  color: var(--white1);
+  background-color: var(--color2);
   font-weight: bold;
   /*border: var(--color2) 2px solid;*/
 }

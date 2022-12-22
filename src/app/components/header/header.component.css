@@ -1,10 +1,10 @@
-*{
-}
-
 header{
   background-color: var(--color1);
   border: solid 4px var(--black1);
   max-height: 62px;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
 }
 #all-buttons-header{
   justify-content:space-between;

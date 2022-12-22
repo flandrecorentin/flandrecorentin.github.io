@@ -2,7 +2,8 @@
   height: 400px;
   background-color: #d7f0ef;
   overflow: hidden;
-  border-bottom: 4px black solid;
+  border-bottom: 5px black solid;
+  padding-top: 62px;
 }
 svg{
   height: 400px;
@@ -90,11 +91,11 @@ h1{
 @keyframes rotateAnimation  {
   from{
     transform: rotateZ(0deg);
-    transform-origin: right+90vh ;
+    transform-origin: right+650px ;
   }
   to{
     transform: rotateZ(360deg);
-    transform-origin: right+90vh ;
+    transform-origin: right+650px ;
   }
 }
 

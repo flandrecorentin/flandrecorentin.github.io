@@ -1,12 +1,31 @@
 <!--<app-header [message]="'esa'" ]></app-header>-->
 <app-presentation></app-presentation>
-<section id="curriculum">
-  <app-section></app-section>
-</section>
-<section id="projects">
-  <app-section></app-section>
-</section>
-<section id="hobbies">
-  <app-section></app-section>
-</section>
+<div id="all-sections">
+  <section id="curriculum">
+    <div class="items-align  part-section">
+      <app-section [title]="curriculumInfos[0]" [description]="curriculumInfos[1]" ></app-section>
+      <app-sectionroute [styleClassDiv]="styleClassDivRight" [styleClass]="styleClassRight" [text]="textCurriculum"></app-sectionroute>
+    </div>
+  </section>
+  <label class="route-label"></label>
+  <section id="projects">
+    <div class="items-align part-section">
+      <app-sectionroute [styleClassDiv]="styleClassDivLeft" [styleClass]="styleClassLeft" [text]="textProjects"></app-sectionroute>
+      <app-section [title]="projectsInfos[0]" [description]="projectsInfos[1]"></app-section>
+    </div>
+  </section>
+  <label class="route-label"></label>
+  <section id="hobbies">
+    <div class="items-align  part-section">
+      <app-section [title]="sportInfos[0]" [description]="sportInfos[1]"></app-section>
+      <app-sectionroute [styleClassDiv]="styleClassDivRight" [styleClass]="styleClassRight" [text]="textHobbies1"></app-sectionroute>
+    </div>
+    <label class="route-label"></label>
+    <div class="items-align  part-section">
+      <app-sectionroute [styleClassDiv]="styleClassDivLeft" [styleClass]="styleClassLeft" [text]="textHobbies2"></app-sectionroute>
+      <app-section [title]="artInfos[0]" [description]="artInfos[1]"></app-section>
+    </div>
+  </section>
+</div>
+
 

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-section',
@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./section.component.css']
 })
 export class SectionComponent {
-
+  @Input() description: string | undefined;
+  @Input() title: string | undefined;
+  // same thing for the svg
 }

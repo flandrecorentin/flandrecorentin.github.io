@@ -1,4 +1,37 @@
-section{
-  height: 100px;
+#all-sections{
   background-color: #F8FDFF;
+}
+.part-section {
+  height: 300px;
+}
+
+#projects{
+
+}
+#curriculum, #hobbies{
+
+}
+app-section{
+  width: 70%;
+  /*border: 5px solid red;*/
+}
+app-sectionroute{
+  width: 30%;
+  /*border: 5px solid yellow;*/
+}
+
+.route-label{
+  width: 70%;
+  left: 15%;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--black1),
+    var(--black1) 20px,
+    var(--transparent) 20px,
+    var(--transparent) 40px
+  );
+  height: 5px;
+  /*border: yellow 2px solid;*/
+  /*border: dashed 5px var(--black1);*/
+  position: absolute;
 }
