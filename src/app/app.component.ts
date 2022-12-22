@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Portfolio';
+  aEnvoyeAHeader = "salut-j'ai passé un paramètres à l'enfant";
 }

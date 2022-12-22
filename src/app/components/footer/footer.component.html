@@ -1,0 +1,22 @@
+<footer>
+  <div>
+    <p id="footer-text">Le site web a été développé par moi (Flandre Corentin), merci de ne pas utiliser les ressources créées sans mon autorisation :)<br>
+      N’hésitez pas à me contacter en cas de problèmes/questions</p>
+  </div>
+  <div id="copyright-contact-about" class="items-align">
+<!--    the copyright text-->
+    <div>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+      <p>Tous droits réservés <span class="material-symbols-outlined" style="font-size:15px">copyright</span> flandrecorentin (2023)</p>
+    </div>
+    <div id="footer-app-buttons" class="items-align">
+      <!--      bouton about + bouton contact-->
+        <div>
+          <app-button [styleClass]="styleClassFooter" [text]="textButtonContact" [link]="linkButtonContact"></app-button>
+        </div>
+        <div>
+          <app-button [styleClass]="styleClassFooter" [text]="textButtonAbout" [link]="linkButtonAbout"></app-button>
+        </div>
+    </div>
+  </div>
+</footer>

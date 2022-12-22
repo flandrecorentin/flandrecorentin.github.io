@@ -9,6 +9,12 @@ import { PageNotFoundComponent } from './pagenotfound/pagenotfound.component'
 import {HomePageComponent} from "./homepage/homepage.component";
 import { HobbiesComponent } from './hobbies/hobbies.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { HeaderComponent } from './components/header/header.component';
+import { ContactComponent } from './contact/contact.component';
+import { ButtonComponent } from './components/button/button.component';
+import { PresentationComponent } from './components/presentation/presentation.component';
+import { SectionComponent } from './components/section/section.component';
 
 
 @NgModule({
@@ -20,6 +26,12 @@ import { ProjectsComponent } from './projects/projects.component';
     HomePageComponent,
     HobbiesComponent,
     ProjectsComponent,
+    FooterComponent,
+    HeaderComponent,
+    ContactComponent,
+    ButtonComponent,
+    PresentationComponent,
+    SectionComponent,
   ],
   imports: [
     BrowserModule,
@@ -28,4 +40,6 @@ import { ProjectsComponent } from './projects/projects.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+
+}
