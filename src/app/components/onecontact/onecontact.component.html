@@ -1,0 +1,10 @@
+<div id="div-onecontact"  >
+  <div class="items-align" id="title-logo">
+      <a *ngIf="!(this.link=='contact');else elseBlock" class="title" href="{{link}}" target="_blank">{{title}}</a>
+      <ng-template #elseBlock><a class="title">{{title}}</a></ng-template>
+
+      <a *ngIf="!(this.link=='contact');else elseBlock2" class="logo" href="{{link}}" target="_blank" class="{{logo}}"></a>
+      <ng-template #elseBlock2><a class="logo" class="{{logo}}"></a></ng-template>
+  </div>
+  <p>{{description}}</p>
+</div>

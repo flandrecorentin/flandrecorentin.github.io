@@ -11,7 +11,9 @@ h1{
   padding: 0;
   font-size: 1rem;
 }
-
+body{
+  min-height: 100vh;
+}
 :root {
   --color1: rgb(203, 215, 243);
   --color2: rgb(6, 12, 44);

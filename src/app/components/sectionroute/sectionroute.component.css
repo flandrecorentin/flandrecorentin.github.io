@@ -8,6 +8,7 @@
   background-color: var(--color3);
   position: absolute;
   margin-top: 150px;
+  min-width: 100px;
   /*transform: translateZ(50%);*/
 }
 h3{
@@ -50,8 +51,9 @@ h3{
   cursor: pointer;
 }
 #part-section-route:hover{
-  background-color: var(--color4);
+  background-color: var(--color2);
   color: var(--white1);
   transition: 0.2s;
+  border-top: var(--color4) 5px solid;
   cursor: pointer;
 }

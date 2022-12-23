@@ -2,10 +2,14 @@
   padding: 80px 80px 20px 80px;
   text-align: center;
 }
+#head{
+  padding: 30px;
+  text-align: center;
+}
 h2{
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 2.5rem;
-  margin: 10px;
+  font-size: 2rem;
+  padding: 10px;
 }
 h3{
   font-family: 'Julius Sans One', sans-serif;
@@ -23,4 +27,64 @@ ul{
   padding: 5px;
   border-radius: 5px;
   transition: 0.2s;
+}
+
+
+
+/* ANIMATION */
+.bar{
+ content: "";
+ position: absolute;
+ background-color: var(--color2);
+  border-radius: 5px;
+}
+#bar1{
+  height: 5px;
+  width: 400px;
+  animation: strokeAnimationHorizontal 4s alternate-reverse infinite;
+  transform: translateX(-40%);
+}
+
+#bar2{
+  width: 5px;
+  height: 80px;
+  transform: translateY(-25%) translateX(180px);
+//background-color: red;
+  animation: strokeAnimationVertical2 1.5s alternate-reverse infinite;
+}
+#bar3{
+  height: 5px;
+  width: 400px;
+  transform: translateX(-40%);
+  animation: strokeAnimationHorizontal 2.5s alternate-reverse infinite;
+}
+#bar4{
+  width: 5px;
+  height: 80px;
+  transform: translateX(-150px) translateY(-80%);
+  animation: strokeAnimationVertical4 2s alternate-reverse infinite;
+}
+@keyframes  strokeAnimationHorizontal{
+  from{
+    transform: translateX(-40%);
+  }
+  to{
+    transform: translateX(-52%);
+  }
+}
+@keyframes  strokeAnimationVertical2{
+  from{
+    transform: translateY(-30%) translateX(180px);
+  }
+  to{
+    transform: translateY(-10%) translateX(180px);
+  }
+}
+@keyframes  strokeAnimationVertical4{
+  from{
+    transform: translateX(-150px) translateY(-80%);
+  }
+  to{
+    transform: translateX(-150px) translateY(-65%);
+  }
 }

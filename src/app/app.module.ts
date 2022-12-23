@@ -16,6 +16,7 @@ import { ButtonComponent } from './components/button/button.component';
 import { PresentationComponent } from './components/presentation/presentation.component';
 import { SectionComponent } from './components/section/section.component';
 import { SectionrouteComponent } from './components/sectionroute/sectionroute.component';
+import { OnecontactComponent } from './components/onecontact/onecontact.component';
 
 
 @NgModule({
@@ -34,6 +35,7 @@ import { SectionrouteComponent } from './components/sectionroute/sectionroute.co
     PresentationComponent,
     SectionComponent,
     SectionrouteComponent,
+    OnecontactComponent,
   ],
   imports: [
     BrowserModule,

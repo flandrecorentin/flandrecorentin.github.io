@@ -1,20 +1,19 @@
 <div id="div-contact">
-  <h2>Me contacter</h2>
-  <div class="letter-image">
-    <div class="animated-mail">
-      <div class="back-fold"></div>
-      <div class="letter">
-        <div class="letter-border"></div>
-        <div class="letter-title"></div>
-        <div class="letter-context"></div>
-        <div class="letter-stamp">
-          <div class="letter-stamp-inner"></div>
-        </div>
-      </div>
-      <div class="top-fold"></div>
-      <div class="body"></div>
-      <div class="left-fold"></div>
+  <div id="head" class="text-align-center">
+      <span class="bar" id="bar1"></span>
+      <span class="bar" id="bar2"></span>
+      <h2>Me contacter</h2>
+      <span class="bar" id="bar3"></span>
+      <span class="bar" id="bar4"></span>
+  </div>
+  <div id="contacts">
+    <div class="items-align">
+      <app-onecontact [title]="githubInfos[0]" [description]="githubInfos[1]" [link]="githubInfos[2]" [logo]="githubInfos[3]"></app-onecontact>
+      <app-onecontact [title]="mailInfos[0]" [description]="mailInfos[1]" [link]="mailInfos[2]" [logo]="mailInfos[3]"></app-onecontact>
     </div>
-    <div class="shadow"></div>
+    <div class="items-align">
+      <app-onecontact [title]="linkedinInfos[0]" [description]="linkedinInfos[1]" [link]="linkedinInfos[2]" [logo]="linkedinInfos[3]"></app-onecontact>
+      <app-onecontact [title]="phoneInfos[0]" [description]="phoneInfos[1]" [link]="phoneInfos[2]" [logo]="phoneInfos[3]"></app-onecontact>
+    </div>
   </div>
 </div>
