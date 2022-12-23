@@ -13,6 +13,7 @@
 #section:hover{
   animation: sectionAnim ease-in-out 1s infinite;
   background: var(--color4);
+  color: var(--white1);
   cursor: pointer;
 }
 @keyframes  sectionAnim{
@@ -33,6 +34,8 @@
   background-color: var(--black4);
 }
 #h3-section{
+  font-size: 1.4rem;
+  font-weight: bold;
 }
 #p-section{
 

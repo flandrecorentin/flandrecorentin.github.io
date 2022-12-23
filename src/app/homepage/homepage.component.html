@@ -1,29 +1,30 @@
 <!--<app-header [message]="'esa'" ]></app-header>-->
+<section id="curriculum"></section>
 <app-presentation></app-presentation>
 <div id="all-sections">
-  <section id="curriculum">
-    <div class="items-align  part-section">
-      <app-section [linkSVG]="curriculumInfos[2]" [title]="curriculumInfos[0]" [description]="curriculumInfos[1]" ></app-section>
-      <app-sectionroute [styleClassDiv]="styleClassDivRight" [styleClass]="styleClassRight" [text]="textCurriculum"></app-sectionroute>
-    </div>
-  </section>
-  <label class="route-label"></label>
   <section id="projects">
-    <div class="items-align part-section">
-      <app-sectionroute [styleClassDiv]="styleClassDivLeft" [styleClass]="styleClassLeft" [text]="textProjects"></app-sectionroute>
-      <app-section [title]="projectsInfos[0]" [description]="projectsInfos[1]"></app-section>
+    <div class="items-align  part-section">
+      <app-section routerLink="./curriculum" [linkSVG]="curriculumInfos[2]" [title]="curriculumInfos[0]" [description]="curriculumInfos[1]" ></app-section>
+      <app-sectionroute routerLink="./curriculum" [styleClassDiv]="styleClassDivRight" [styleClass]="styleClassRight" [text]="textCurriculum"></app-sectionroute>
     </div>
   </section>
   <label class="route-label"></label>
   <section id="hobbies">
+    <div class="items-align part-section">
+      <app-sectionroute routerLink="./projects" [styleClassDiv]="styleClassDivLeft" [styleClass]="styleClassLeft" [text]="textProjects"></app-sectionroute>
+      <app-section routerLink="./projects" [title]="projectsInfos[0]" [description]="projectsInfos[1]"></app-section>
+    </div>
+  </section>
+  <label class="route-label"></label>
+  <section>
     <div class="items-align  part-section">
-      <app-section [title]="sportInfos[0]" [description]="sportInfos[1]"></app-section>
-      <app-sectionroute [styleClassDiv]="styleClassDivRight" [styleClass]="styleClassRight" [text]="textHobbies1"></app-sectionroute>
+      <app-section routerLink="./hobbies" [title]="sportInfos[0]" [description]="sportInfos[1]"></app-section>
+      <app-sectionroute routerLink="./hobbies" [styleClassDiv]="styleClassDivRight" [styleClass]="styleClassRight" [text]="textHobbies1"></app-sectionroute>
     </div>
     <label class="route-label"></label>
     <div class="items-align  part-section">
-      <app-sectionroute [styleClassDiv]="styleClassDivLeft" [styleClass]="styleClassLeft" [text]="textHobbies2"></app-sectionroute>
-      <app-section [title]="artInfos[0]" [description]="artInfos[1]"></app-section>
+      <app-sectionroute routerLink="./hobbies" [styleClassDiv]="styleClassDivLeft" [styleClass]="styleClassLeft" [text]="textHobbies2"></app-sectionroute>
+      <app-section routerLink="./hobbies" [title]="artInfos[0]" [description]="artInfos[1]"></app-section>
     </div>
   </section>
 </div>

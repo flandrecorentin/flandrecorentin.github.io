@@ -14,7 +14,7 @@ export class HomePageComponent {
   styleClassRight = "route-label route-label-right";
   styleClassDivLeft = "route-label-div-left";
   styleClassDivRight = "route-label-div-right";
-  curriculumInfos = ['Cursus universitaire et professionel', 'blablablablablabla', 'curriculum'];
+  curriculumInfos = ['Parcours universitaire et professionel', 'Découvez mon parcours universitaire et mon début dans le monde professionel', 'curriculum'];
   projectsInfos = ['Projets informatiques (Projets persos, universitaires ou professionel)', 'blablablablablabla'];
   sportInfos = ['Ma pratique de sport', 'blablablablablabla'];
   artInfos = ['Cursus universitaire et professionel', 'blablablablablabla'];

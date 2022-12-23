@@ -11,23 +11,29 @@ header{
 }
 
 #div-languages{
-  padding: 0px 20px;
+  padding: 0px 10px;
   border-left: 4px var(--black1) solid;
   border-right: 4px var(--black1) solid;
 }
 #div-languages-french{
   margin: 8px 0px;
   border: 4px solid var(--black1);
+  border-radius: 5px;
   height: 11px;
   width: 30px;
   background: linear-gradient(90deg, rgba(9,34,121,1) 0%, rgba(9,34,121,1) 33%, rgba(255,255,255,1) 33%, rgba(255,255,255,1) 67%, rgba(241,4,4,1) 67%);
 }
 #div-languages-english{
   margin: 8px 0px;
+  border-radius: 5px;
   border: 4px solid var(--black1);
   height: 11px;
   width: 30px;
   background: linear-gradient(180deg, transparent, transparent 4.4px, #c8102e 4.4px, #c8102e 6.6px, transparent 6.6px, transparent 100%), linear-gradient(90deg, transparent, transparent 9.9px, #c8102e 9.9px, #c8102e 12.1px, transparent 12.1px, transparent 100%), linear-gradient(180deg, transparent, transparent 3.7px, #FFF 3.7px, #FFF 7.3px, transparent 7.3px, transparent 100%), linear-gradient(90deg, transparent, transparent 9.2px, #FFF 9.2px, #FFF 12.8px, transparent 12.8px, transparent 100%), linear-gradient(26.56505deg, transparent, transparent 9.1px, #c8102e 9.1px, #c8102e 9.8px, transparent 9.8px, transparent 100%) 0 0/11px 100% no-repeat, linear-gradient(-26.56505deg, transparent, transparent 9.8px, #c8102e 9.8px, #c8102e 10.6px, transparent 10.6px, transparent 100%) 11px 0/11px 100% no-repeat, linear-gradient(26.56505deg, transparent, transparent 9.8px, #c8102e 9.8px, #c8102e 10.6px, transparent 10.6px, transparent 100%) 11px 5.5px/11px 100% no-repeat, linear-gradient(-26.56505deg, transparent, transparent 9.1px, #c8102e 9.1px, #c8102e 9.8px, transparent 9.8px, transparent 100%) 0 5.5px/11px 100% no-repeat, linear-gradient(27deg, transparent, transparent 8.7px, #FFF 8.7px, #FFF 10.9px, transparent 10.9px, transparent 100%), linear-gradient(153deg, transparent, transparent 8.7px, #FFF 8.7px, #FFF 10.9px, transparent 10.9px, transparent 100%), #012169;
+}
+#div-languages-french:hover, #div-languages-english:hover{
+  border: 5px var(--white1) solid;
+  transform: scale(1.4);
 }
 
 #darkmod{
@@ -35,6 +41,7 @@ header{
   text-align: center;
   /*border-left: 2px var(--black1) solid;*/
   margin: auto;
+  cursor: pointer;
 }
 
 .link-same-page{
@@ -51,6 +58,7 @@ header{
 .link-same-page:hover, #link-same-page-home:hover, #darkmod:hover{
   background-color: var(--color2);
   color: var(--white1);
+
 }
 .link-same-page:active, #link-same-page-home:active, #darkmod:active{
   font-weight: bold;
