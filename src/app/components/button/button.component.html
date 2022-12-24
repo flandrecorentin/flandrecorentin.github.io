@@ -1,1 +1,2 @@
-<div class="{{styleClass}}" routerLink="{{link}}">{{text}}</div>
+<div *ngIf="!(link==undefined); else elseBlock3" class="{{styleClass}}" routerLink="{{link}}">{{text}}</div>
+<ng-template #elseBlock3><div class="{{styleClass}}">{{text}}</div></ng-template>

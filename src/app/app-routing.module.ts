@@ -7,6 +7,7 @@ import {AboutComponent} from './about/about.component';
 import {HobbiesComponent} from './hobbies/hobbies.component';
 import {PageNotFoundComponent} from './pagenotfound/pagenotfound.component'
 import {ContactComponent} from "./contact/contact.component";
+import {SvgComponent} from "./svg/svg.component";
 
 const routes: Routes = [
   { path: '', component: HomePageComponent,},
@@ -15,6 +16,9 @@ const routes: Routes = [
   { path: 'hobbies', component: HobbiesComponent},
   { path: 'about', component: AboutComponent},
   { path: 'contact', component: ContactComponent},
+  // { path: 'svg/:id', component: SvgComponent},
+  { path: 'svg/:id', component: PageNotFoundComponent},
+  { path: 'index.html',   redirectTo: '', pathMatch: 'full' },
   // Route for 404 request : resources not found
   { path: '**', pathMatch: 'full', component: PageNotFoundComponent },
 ];

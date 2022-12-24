@@ -2,6 +2,7 @@ footer{
   background-color: var(--color1);
   padding: 10px 30px;
   border: solid 4px var(--black1);
+  height: 100px;
 }
 
 #copyright-contact-about{

@@ -2,6 +2,7 @@
   border: 2px red solid;
 }
 .styleDefault{
+  /*border: 2px green solid;*/
 }
 
 .styleFooter{
@@ -22,4 +23,55 @@
 }
 .styleFooter:active{
   background-color: var(--black2);
+}
+
+
+.styleCurriculum{
+  background: var(--color3);
+  margin: 0px 10px;
+  border: 5px var(--color2) solid;
+  padding: 5px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+@keyframes  sectionAnim{
+  from{
+    transform: scale(1.0);
+  }
+  50%{
+    transform: scale(1.05);
+  }
+  to{
+    transform: scale(1.0);
+  }
+}
+.styleCurriculum:hover{
+  animation: sectionAnim ease-in-out 1s infinite;
+  background: var(--color4);
+  color: var(--white1);
+}
+.styleCurriculum:active{
+  background: var(--color5);
+}
+
+
+
+
+
+.styleCurriculumActive{
+  background: var(--color5);
+  margin: 0px 10px;
+  border: 5px var(--color2) solid;
+  padding: 5px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.styleCurriculumActive:hover{
+  animation: sectionAnim ease-in-out 1s infinite;
+  background: var(--color5);
+  color: var(--white1);
+}
+.styleCurriculumActive:active{
+  background: var(--color3);
+  border: 5px var(--color4) solid;
 }

@@ -1,10 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Title</title>
-</head>
-<body>
-  <h1>Ceci est la page Curriculum</h1>
-</body>
-</html>
+<div id="div-curriculum" class="text-align-center">
+  <div id="head" class="text-align-center">
+    <span class="bar" id="bar1"></span>
+    <span class="bar" id="bar2"></span>
+    <h2>Cursus</h2>
+    <span class="bar" id="bar3"></span>
+    <span class="bar" id="bar4"></span>
+  </div>
+  <div id="div-linkCV">
+    <a id="linkCV" href="./assets/CV-Flandre-Corentin.pdf" download="CV-Flandre-Corentin.pdf">Télécharger mon CV</a>
+  </div>
+
+  <div id="curriculum-choice" class="items-align">
+    <app-button (click)="onClick1()" [text]="textButton[0]" [styleClass]="styleCurriculum1"></app-button>
+    <app-button (click)="onClick2()" [text]="textButton[1]" [styleClass]="styleCurriculum2"></app-button>
+    <app-button (click)="onClick3()" [text]="textButton[2]" [styleClass]="styleCurriculum3"></app-button>
+  </div>
+  <div id="curriculum-response">
+    <app-response-curriculum *ngIf="currentChoiceResponse==1" [title]="highschoolInfos[0]" [description]="highschoolInfos[1]" [linkSVG]="highschoolInfos[2]" ></app-response-curriculum>
+    <app-response-curriculum *ngIf="currentChoiceResponse==2" [title]="INSAInfos[0]" [description]="INSAInfos[1]" [linkSVG]="INSAInfos[2]"></app-response-curriculum>
+    <app-response-curriculum *ngIf="currentChoiceResponse==3" [title]="engineerInfos[0]" [description]="engineerInfos[1]" [linkSVG]="engineerInfos[2]"></app-response-curriculum>
+  </div>
+</div>
+
+

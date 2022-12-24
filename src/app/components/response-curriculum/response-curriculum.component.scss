@@ -1,0 +1,28 @@
+#div-response-curriculum{
+  background-color: var(--color3);
+  border: 5px var(--black1) solid;
+  border-radius: 15px;
+  box-shadow: 3px 4px 2px var(--black2);
+}
+#h3-svg{
+  width: 400px;
+  text-align: center;
+  //border: 2px yellow solid;
+}
+h3{
+  position: relative;
+  font-family: 'Julius Sans One', sans-serif;
+  padding: 10px;
+  font-size: 1.5rem;
+
+}
+p{
+  margin: auto;
+  padding: 10px 30px;
+}
+iframe{
+  margin: 5px;
+  border: var(--black1) 4px solid;
+  background-color: var(--black4);
+  border-radius: 10px;
+}

@@ -17,6 +17,9 @@ import { PresentationComponent } from './components/presentation/presentation.co
 import { SectionComponent } from './components/section/section.component';
 import { SectionrouteComponent } from './components/sectionroute/sectionroute.component';
 import { OnecontactComponent } from './components/onecontact/onecontact.component';
+import { ResponseCurriculumComponent } from './components/response-curriculum/response-curriculum.component';
+import {AngularSvgIconModule} from "angular-svg-icon";
+import { SvgComponent } from './svg/svg.component';
 
 
 @NgModule({
@@ -36,11 +39,14 @@ import { OnecontactComponent } from './components/onecontact/onecontact.componen
     SectionComponent,
     SectionrouteComponent,
     OnecontactComponent,
+    ResponseCurriculumComponent,
+    SvgComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        AngularSvgIconModule,
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

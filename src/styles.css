@@ -19,6 +19,7 @@ body{
   --color2: rgb(6, 12, 44);
   --color3: rgb(229, 229, 229);
   --color4: rgb(150, 150, 150);
+  --color5: rgb(177, 54, 54);
 
   --black1: rgb(0, 0, 0);
   --black2: rgba(0, 0, 0, 0.5);
@@ -31,6 +32,9 @@ body{
   --white4: rgba(255, 255, 255, 0.1);
 
   --transparent: rgba(255, 255, 255, 0);
+
+  --gradient1:  linear-gradient(to right, #00b4db, #0083b0);
+  --gradient2: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 92% );
 }
 
 .items-align{

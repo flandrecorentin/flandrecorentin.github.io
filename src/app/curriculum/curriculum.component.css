@@ -1,0 +1,117 @@
+#div-curriculum{
+  background-color: #F8FDFF;
+  padding: 80px 0px 10px 0px;
+}
+#head{
+  padding: 30px;
+  text-align: center;
+}
+h2{
+  margin-top: 10px;
+  font-size: 2rem;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+#curriculum-choice{
+  margin: 20px 0px;
+  //border: 2px solid red;
+  justify-content: center;
+  text-align: center;
+}
+
+#curriculum-response{
+  margin: 30px auto;
+  width: 90%;
+}
+
+/*// link CV*/
+#div-linkCV{
+  margin: 50px;
+}
+#linkCV{
+  margin-top: 100px;
+  text-decoration: none;
+  color: var(--black1);
+  padding: 10px;
+  background-image:var(--gradient2);
+  border: 5px var(--black1) solid;
+  border-radius: 5px;
+}
+
+#linkCV:hover{
+  animation: sectionAnim ease-in-out 1s infinite;
+  background:var(--gradient1);
+}
+@keyframes  sectionAnim{
+  from{
+    transform: scale(1.0);
+  }
+  50%{
+    transform: scale(1.05);
+  }
+  to{
+    transform: scale(1.0);
+  }
+}
+#linkCV:active {
+  background:var(--color5);
+}
+
+
+/*// ANIMATION*/
+   .bar{
+     content: "";
+     position: absolute;
+     background-color: var(--color2);
+     transition-duration: 2s;
+   }
+#bar1{
+  height: 5px;
+  width: 400px;
+  animation: strokeAnimationHorizontal 4s alternate-reverse infinite;
+  transform: translateX(-40%);
+}
+
+#bar2{
+  width: 5px;
+  height: 80px;
+  transform: translateY(-25%) translateX(180px);
+//background-color: red;
+  animation: strokeAnimationVertical2 1.5s alternate-reverse infinite;
+}
+#bar3{
+  height: 5px;
+  width: 400px;
+  transform: translateX(-40%);
+  animation: strokeAnimationHorizontal 2.5s alternate-reverse infinite;
+}
+#bar4{
+  width: 5px;
+  height: 80px;
+  transform: translateX(-150px) translateY(-80%);
+  animation: strokeAnimationVertical4 2s alternate-reverse infinite;
+}
+@keyframes  strokeAnimationHorizontal{
+  from{
+    transform: translateX(-40%);
+  }
+  to{
+    transform: translateX(-52%);
+  }
+}
+@keyframes  strokeAnimationVertical2{
+  from{
+    transform: translateY(-30%) translateX(180px);
+  }
+  to{
+    transform: translateY(-10%) translateX(180px);
+  }
+}
+@keyframes  strokeAnimationVertical4{
+  from{
+    transform: translateX(-150px) translateY(-80%);
+  }
+  to{
+    transform: translateX(-150px) translateY(-65%);
+  }
+}
