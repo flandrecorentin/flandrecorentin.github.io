@@ -61,7 +61,7 @@ ul{
 #bar4{
   width: 5px;
   height: 80px;
-  transform: translateX(-150px) translateY(-80%);
+  transform: translateX(-180px) translateY(-80%);
   animation: strokeAnimationVertical4 2s alternate-reverse infinite;
 }
 @keyframes  strokeAnimationHorizontal{
@@ -82,9 +82,9 @@ ul{
 }
 @keyframes  strokeAnimationVertical4{
   from{
-    transform: translateX(-150px) translateY(-80%);
+    transform: translateX(-180px) translateY(-80%);
   }
   to{
-    transform: translateX(-150px) translateY(-65%);
+    transform: translateX(-180px) translateY(-65%);
   }
 }

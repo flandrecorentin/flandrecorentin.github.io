@@ -1,0 +1,85 @@
+#div-hobbies{
+  background-color: #F8FDFF;
+  padding: 80px 0px 10px 0px;
+}
+#head{
+  padding: 30px;
+  text-align: center;
+}
+h2{
+  margin-top: 10px;
+  font-size: 2rem;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*// ANIMATION*/
+.bar{
+  content: "";
+  position: absolute;
+  background-color: var(--color2);
+  transition-duration: 2s;
+}
+#bar1{
+  height: 5px;
+  width: 300px;
+  animation: strokeAnimationHorizontal 4s alternate-reverse infinite;
+  transform: translateX(-40%);
+}
+
+#bar2{
+  width: 5px;
+  height: 80px;
+  transform: translateY(-25%) translateX(100px);
+//background-color: red;
+  animation: strokeAnimationVertical2 1.5s alternate-reverse infinite;
+}
+#bar3{
+  height: 5px;
+  width: 300px;
+  transform: translateX(-40%);
+  animation: strokeAnimationHorizontal 2.5s alternate-reverse infinite;
+}
+#bar4{
+  width: 5px;
+  height: 80px;
+  transform: translateX(-100px) translateY(-80%);
+  animation: strokeAnimationVertical4 2s alternate-reverse infinite;
+}
+@keyframes  strokeAnimationHorizontal{
+  from{
+    transform: translateX(-40%);
+  }
+  to{
+    transform: translateX(-52%);
+  }
+}
+@keyframes  strokeAnimationVertical2{
+  from{
+    transform: translateY(-30%) translateX(100px);
+  }
+  to{
+    transform: translateY(-10%) translateX(100px);
+  }
+}
+@keyframes  strokeAnimationVertical4{
+  from{
+    transform: translateX(-100px) translateY(-80%);
+  }
+  to{
+    transform: translateX(-100px) translateY(-65%);
+  }
+}
