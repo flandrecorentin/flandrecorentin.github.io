@@ -11,7 +11,7 @@ export class CurriculumComponent{
   styleCurriculum2 = 'styleCurriculumActive';
   styleCurriculum3 = 'styleCurriculum';
 
-  textHighschool = 'Collège Joseph Julien Souhait situé à Saint-Dié-des-Vosges. Classe sportive tennis depuis la sixième. Obtention du brevet mention très bien. Lycée Georges Baumont de 2016 à 2018: bac scientifique sciences de l\'ingénieur  avec spécialité mathématique (Bac S-SI spé maths). C\'est dans mes années de lycée que j\'ai commencé à réaliser mes premiers projets en informatique. Obtention due bac mention très bien avec une moyenne de 17.55/20.';
+  textHighschool = 'Collège dans les Vosges. Classe sportive tennis depuis la sixième. Brevet mention très bien. Lycée Georges Baumont de 2016 à 2018: bac scientifique sciences de l\'ingénieur  avec spécialité mathématique (Bac S-SI spé maths). Début de mes premiers projets en informatique. Obtention du bac mention très bien avec une moyenne de 17.55/20.';
 
 
   textINSA = 'INSA Lyon depuis 2019. Mon cursus d\'élève ingénieur (5ans) a débuté avec 2 ans de prépa-intégrée (Formation Initiale au Métier de l\'Ingénieur (FIMI)) afin d\'apprendre les bases de l\'ingénieurie et des sciences. Classé 57ème sur 800 au FIMI j\'ai obtenu le département Informatique (IF). 3 ans au département IF pour couvrir les thèmes de l\'informatique tel que IA, BigData, cybersécurité, DevOps. Total de 14 mois de stage. 6 mois d\'échange à Stochkolm (Suède) à l\'Institut royal de technologie (KTH). Grand investissement dans les associations de l\'INSA !' ;

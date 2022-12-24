@@ -49,12 +49,15 @@ svg{
 
 
 
+
+
+
 /*ANIMATION SVG CURRICULUM*/
 .algo{
   fill: white;
 }
 #algo1{
-  animation: algoAnimation1 10s 1s infinite;
+  animation: algoAnimation1 8s 1s infinite;
 }
 @keyframes algoAnimation1 {
   0% {
@@ -76,7 +79,7 @@ svg{
 
 /*2*/
 #algo2{
-  animation: algoAnimation2 10s 1s infinite;
+  animation: algoAnimation2 8s 1s infinite;
 }
 @keyframes algoAnimation2 {
   0% {
@@ -99,7 +102,7 @@ svg{
 
 /*1*/
 #algo3{
-  animation: algoAnimation3 10s 1s infinite;
+  animation: algoAnimation3 8s 1s infinite;
 }
 @keyframes algoAnimation3 {
   0% {
@@ -121,7 +124,7 @@ svg{
 
 /*5*/
 #algo4{
-  animation: algoAnimation4 10s 1s infinite;
+  animation: algoAnimation4 8s 1s infinite;
 }
 @keyframes algoAnimation4 {
   0% {
@@ -145,7 +148,7 @@ svg{
 
 /*6*/
 #algo5{
-  animation: algoAnimation5 10s 1s infinite;
+  animation: algoAnimation5 8s 1s infinite;
 }
 @keyframes algoAnimation5 {
   0% {
@@ -167,7 +170,7 @@ svg{
 
 /*3*/
 #algo6{
-  animation: algoAnimation6 10s 1s infinite;
+  animation: algoAnimation6 8s 1s infinite;
 }
 @keyframes algoAnimation6 {
   0% {
@@ -190,7 +193,7 @@ svg{
 
 /*3*/
 #algo6{
-  animation: algoAnimation6 10s 1s infinite;
+  animation: algoAnimation6 8s 1s infinite;
 }
 @keyframes algoAnimation6 {
   0% {
@@ -213,7 +216,7 @@ svg{
 
 /*2*/
 #algo7{
-  animation: algoAnimation7 10s 1s infinite;
+  animation: algoAnimation7 8s 1s infinite;
 }
 @keyframes algoAnimation7 {
   0% {
@@ -236,7 +239,7 @@ svg{
 
 /*9*/
 #algo8{
-  animation: algoAnimation8 10s 1s infinite;
+  animation: algoAnimation8 8s 1s infinite;
 }
 @keyframes algoAnimation8 {
   0% {
@@ -258,7 +261,7 @@ svg{
 
 /*4*/
 #algo9{
-  animation: algoAnimation9 10s 1s infinite;
+  animation: algoAnimation9 8s 1s infinite;
 }
 @keyframes algoAnimation9 {
   0% {
@@ -281,7 +284,7 @@ svg{
 
 /*10*/
 #algo10{
-  animation: algoAnimation10 10s 1s infinite;
+  animation: algoAnimation10 8s 1s infinite;
 }
 @keyframes algoAnimation10 {
   0% {
@@ -304,7 +307,7 @@ svg{
 
 /*11*/
 #algo11{
-  animation: algoAnimation11 10s 1s infinite;
+  animation: algoAnimation11 8s 1s infinite;
 }
 @keyframes algoAnimation11 {
   0% {
@@ -327,7 +330,7 @@ svg{
 
 /*7*/
 #algo12{
-  animation: algoAnimation12 10s 1s infinite;
+  animation: algoAnimation12 8s 1s infinite;
 }
 @keyframes algoAnimation12 {
   0% {
@@ -345,4 +348,124 @@ svg{
   91%{
     fill: white;
   }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*ANIMATION SVG PROJECTS*/
+#histo1{
+  animation: histoAnimation 3s alternate infinite;
+}
+#histo2{
+  animation: histoAnimation 3.5s 1s alternate infinite;
+}
+#histo3{
+  animation: histoAnimation 2s 3s alternate infinite;
+}
+#histo4{
+  animation: histoAnimation 1.7s alternate infinite;
+}#histo5{
+   animation: histoAnimation 4s alternate infinite;
+}#histo6{
+  animation: histoAnimation 2.4s alternate infinite;
+}
+
+
+@keyframes histoAnimation {
+  from{
+    transform: translateY(0%) scale(100%, 100%);
+  }
+  to{
+    transform: translateY(30%) scale(100%, 70%);
+  }
+}
+#message{
+  /*transform: translateX(-10%);*/
+  animation: messageAnimation 10s linear infinite;
+}
+@keyframes messageAnimation {
+  from{
+  }
+  10%{
+    transform: translateY(0%);
+  }
+  20%{
+    transform: translateY(-25%);
+  }
+  25%{
+    transform: translateY(-25%);
+  }
+  35%{
+    transform: translateY(-25%) translateX(-9%);
+  }
+  40%{
+    transform: translateY(-25%) translateX(-9%);
+  }
+  50%{
+    transform: translateY(-25%);
+  }
+  55%{
+    transform: translateY(-25%);
+  }
+  65%{
+    transform: translateY(-50%);
+  }
+  70%{
+    transform: translateY(-50%);
+  }
+  80%{
+    transform: translateY(-25%);
+  }
+  85%{
+    transform: translateY(-25%);
+  }
+  95%{
+    transform: translateY(-0%);
+  }
+}
+
+
+
+
+
+
+
+/*ANIMATION SPORT*/
+#bike{
+  animation: bikeAnimation 12s linear infinite;
+}
+@keyframes bikeAnimation {
+  from{
+    transform: translateX(-70%);
+  }
+  50%{
+    transform: translateX(-10%);
+  }
+  to{
+    transform: translateX(50%) translateY(-13%);
+  }
+}
+
+
+
+
+/*Art*/
+.img-art{
+  padding: 0px;
+  margin: 10px;
+  border-radius: 10px;
+  /*border-image-outset: 0px;*/
+  border: 3px solid var(--black1);
+  border-style: inset;
+}
+.div-img{
+  padding: 0px 30px;
 }
