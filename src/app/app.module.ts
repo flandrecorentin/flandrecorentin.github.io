@@ -20,6 +20,11 @@ import { OnecontactComponent } from './components/onecontact/onecontact.componen
 import { ResponseCurriculumComponent } from './components/response-curriculum/response-curriculum.component';
 import {AngularSvgIconModule} from "angular-svg-icon";
 import { SvgComponent } from './svg/svg.component';
+import { SportSectionComponent } from './components/sport-section/sport-section.component';
+import { ArtSectionComponent } from './components/art-section/art-section.component';
+import { ArtSportChoiceComponent } from './components/art-sport-choice/art-sport-choice.component';
+import { HobbiesSportComponent } from './hobbies-sport/hobbies-sport.component';
+import { HobbiesArtComponent } from './hobbies-art/hobbies-art.component';
 
 
 @NgModule({
@@ -41,6 +46,11 @@ import { SvgComponent } from './svg/svg.component';
     OnecontactComponent,
     ResponseCurriculumComponent,
     SvgComponent,
+    SportSectionComponent,
+    ArtSectionComponent,
+    ArtSportChoiceComponent,
+    HobbiesSportComponent,
+    HobbiesArtComponent,
   ],
     imports: [
         BrowserModule,

@@ -8,11 +8,15 @@ import {HobbiesComponent} from './hobbies/hobbies.component';
 import {PageNotFoundComponent} from './pagenotfound/pagenotfound.component'
 import {ContactComponent} from "./contact/contact.component";
 import {SvgComponent} from "./svg/svg.component";
+import {HobbiesSportComponent} from "./hobbies-sport/hobbies-sport.component";
+import {HobbiesArtComponent} from "./hobbies-art/hobbies-art.component";
 
 const routes: Routes = [
-  { path: '', component: HomePageComponent,},
+  { path: '', component: HomePageComponent},
   { path: 'curriculum', component: CurriculumComponent},
   { path: 'projects', component: ProjectsComponent},
+  { path: 'hobbies/sport', component: HobbiesSportComponent},
+  { path: 'hobbies/art', component: HobbiesArtComponent},
   { path: 'hobbies', component: HobbiesComponent},
   { path: 'about', component: AboutComponent},
   { path: 'contact', component: ContactComponent},
