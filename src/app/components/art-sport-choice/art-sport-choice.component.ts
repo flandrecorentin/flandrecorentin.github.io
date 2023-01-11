@@ -8,10 +8,10 @@ import {Component, Input, OnInit} from '@angular/core';
 export class ArtSportChoiceComponent implements OnInit{
   @Input() section:string | undefined;
   textButton = ['Sport', 'Art'];
-  styleHobbies = 'styleCurriculum';
+  styleHobbies = 'styleHobbies';
   styleHobbies1 = this.styleHobbies;
   styleHobbies2 = this.styleHobbies;
-  styleHobbiesActive = 'styleCurriculumActive';
+  styleHobbiesActive = 'styleHobbiesActive';
 
   onClick1() {
     this.styleHobbies1 =  this.styleHobbiesActive;

@@ -1,0 +1,29 @@
+#div-result-hobbies{
+  /*padding: 20px;*/
+  margin: 30px 50px;
+  /*border: 2px solid red;*/
+  /*float: left;*/
+}
+#h3-p{
+  margin: 20px;
+  text-align: center;
+ }
+img{
+  margin: 10px;
+  border: var(--color2) ridge 5mm;
+  /* put a background-color (same color as the border) */
+  /*background-color: var(--color2);*/
+}
+.horizontal{
+  max-height: 470px;
+}
+.vertical{
+  max-width: 450px;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 1px 2px 3px var(--black3);
+  margin: 30px;
+}

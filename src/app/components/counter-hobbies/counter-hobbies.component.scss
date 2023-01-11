@@ -1,0 +1,37 @@
+#div-counter-hobbies{
+margin: 20px;
+}
+label{
+  padding: 10px;
+  //border: 2px red solid;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 10px 30px;
+}
+button{
+  border-radius: 15px;
+  background-color: var(--color3);
+  border: 4px var(--black1) solid;
+  padding: 0px 30px;
+  font-size: 2.5rem;
+  //border: 2px red solid;
+}
+button:hover{
+  animation: sectionAnim ease-in-out 1s infinite;
+  background: var(--color4);
+  color: var(--white1);
+}
+button:active{
+  background: var(--color5);
+}
+@keyframes  sectionAnim{
+  from{
+    transform: scale(1.0);
+  }
+  50%{
+    transform: scale(1.05);
+  }
+  to{
+    transform: scale(1.0);
+  }
+}

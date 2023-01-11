@@ -25,6 +25,8 @@ import { ArtSectionComponent } from './components/art-section/art-section.compon
 import { ArtSportChoiceComponent } from './components/art-sport-choice/art-sport-choice.component';
 import { HobbiesSportComponent } from './hobbies-sport/hobbies-sport.component';
 import { HobbiesArtComponent } from './hobbies-art/hobbies-art.component';
+import { CounterHobbiesComponent } from './components/counter-hobbies/counter-hobbies.component';
+import { ResultHobbiesComponent } from './components/result-hobbies/result-hobbies.component';
 
 
 @NgModule({
@@ -51,6 +53,8 @@ import { HobbiesArtComponent } from './hobbies-art/hobbies-art.component';
     ArtSportChoiceComponent,
     HobbiesSportComponent,
     HobbiesArtComponent,
+    CounterHobbiesComponent,
+    ResultHobbiesComponent,
   ],
     imports: [
         BrowserModule,

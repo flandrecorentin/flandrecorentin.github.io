@@ -1,1 +1,5 @@
-<p>art-section works!</p>
+<div id="div-art-section" class="text-align-center">
+  <p id="description">{{description}}</p>
+  <app-counter-hobbies [lengthCounter]="8" (slideEvent)="changeSlide($event)" ></app-counter-hobbies>
+  <app-result-hobbies [title]="titleResult[this.numSlide-1]" [description]="descriptionResult[this.numSlide-1]" [link]="imgResult[this.numSlide-1]" [altImg]="altImgResult[this.numSlide-1]" [alignment]="alignment[this.numSlide-1]"></app-result-hobbies>
+</div>
