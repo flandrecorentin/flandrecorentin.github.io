@@ -14,8 +14,8 @@ export class SportSectionComponent {
   }
 
   titleResult = [
-    'Voyage Vosges-Brest',
-    'Voyage Vosges-Vanoise/Alpes',
+    'Itinérance Vosges-Brest',
+    'Itinérance Vosges-Vanoise/Alpes',
     'Voyage Tour des Vosges',
     'Randonnée Juras (GR5)',
     'Randonnée Vosges (GR5-été)',
@@ -27,11 +27,11 @@ export class SportSectionComponent {
   ];
   descriptionResult = [
     // 1/10
-    'blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne questionblablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne questionblablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question',
+    'Voyage en itinérance à vélo afin de parcourir la France d\'Est en Ouest. Départ dans les Vosges depuis Saint-Dié-des-Vosges et destination Brest. J\'ai voyagé avec un ami et nous sommes partis super léger avec très peu d\'affaires (sans tente, que à la belle étoile ou accueuillis chez des personnes rencontrées sur la route :)). Nous avons parcouru au total 1100km et fait 7000m D+ sur un total de 7 jours ! A la fin kouign-amann en récompense :)',
     // 2/10
-    'blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne questionblablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne questionblablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question',
+    'Voyage en itnérance à vélo pour rejoindre les Alpes depuis les Vosges. Départ depuis Saint-Dié-des-Vosges à destination de Moutiers, au pied du Parc National de la Vanoise dans les Alpes. De nombreux cols sur le chemins. Itinéraire qui passe par la France, la Suisse et l\'Italie et qui finit sur le col de la Loze ! Nous avons parcouru au total 550km pour 10 000m D+.',
     // 3/10
-    'blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne questionblablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne questionblablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question',
+    'Voyage',
     // 4/10
     'blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne questionblablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne questionblablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question',
     // 5/10
@@ -61,7 +61,7 @@ export class SportSectionComponent {
   ];
   altImgResult = [
     'Photo non disponible - voyage itinerance à velo entre Vosges et Brest, total de 1100km 7000D+ en 7jours',
-    'Photo non disponible - voyage itinerance à velo entre Vosges et Vanoise(Alpes), total de 500km 6000D+ en 4jours',
+    'Photo non disponible - voyage itinerance à velo entre Vosges et Vanoise(Alpes), total de 550km 10000D+ en 4jours',
     'Photo non disponible - voyage itinerance à vélo tour des Vosges, total de 350km 3000D+ en 3jours',
     'Photo non disponible - randonnée Juras (GR5), 4/5 jours',
     'Photo non disponible - randonnée Vosges été (GR5), 3 jours',

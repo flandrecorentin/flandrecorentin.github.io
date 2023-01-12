@@ -9,18 +9,19 @@ export class ArtSectionComponent {
   description = 'Je pratique régulièrement le dessin (à crayons de couleurs aquarellables principalement). Je réalise aussi quelques dessin numériques (pixel art, courte animation et maquettes) qui me servent principalement dans mes projets personnels :).';
   numSlide = 1;
   changeSlide($event: number) {
+    this.numSlide = $event;
     console.log('change slide' + $event);
   }
 
   titleResult = [
-    'Dessin',
-    'Dessin',
-    'Dessin',
-    'Dessin',
-    'Dessin',
-    'Dessin',
-    'Dessin',
-    'Dessin',
+    'Dessin Planisphère',
+    'Dessins SVG Animations',
+    'Dessin montagne enneigée',
+    'Dessin bord de l\'océan',
+    'Dessin villa',
+    'Dessin femme en fôret',
+    'Dessin oiseau',
+    'Dessin perspective',
   ];
   descriptionResult = [
     // 1/10
@@ -41,36 +42,34 @@ export class ArtSectionComponent {
     'blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne questionblablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne questionblablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question'
   ];
   imgResult = [
-    'assets/art/',
-    'assets/art/',
-    'assets/art/',
-    'assets/art/',
-    'assets/art/',
-    'assets/art/',
-    'assets/art/',
-    'assets/art/',
+    'assets/art/dessin-planisphere.jpg',
+    'assets/art/dessin-svg.jpg',
+    'assets/art/dessin-foret-montagne.jpg',
+    'assets/art/dessin-ocean-plage.jpg',
+    'assets/art/dessin-villa.jpg',
+    'assets/art/dessin-femme-foret.jpg',
+    'assets/art/dessin-oiseau.jpg',
+    'assets/art/dessin-perspective.jpg',
   ];
   altImgResult = [
-    'Photo non disponible - dessin ',
-    'Photo non disponible - dessin ',
-    'Photo non disponible - dessin ',
-    'Photo non disponible - dessin ',
-    'Photo non disponible - dessin ',
-    'Photo non disponible - dessin ',
-    'Photo non disponible - dessin ',
-    'Photo non disponible - dessin ',
+    'Photo non disponible - dessin planisphère',
+    'Photo non disponible - dessins SVG animations',
+    'Photo non disponible - dessin forêt avec montagne enneigée',
+    'Photo non disponible - dessin plage au bord de l\'océan avec des voiliers et un phare',
+    'Photo non disponible - dessin d\'une villa en nuance de noir',
+    'Photo non disponible - dessin d\'une femme dans une petite forêt',
+    'Photo non disponible - dessin d\'un oiseau sur une branche',
+    'Photo non disponible - dessin en perspective de l\'intérieur d\'une chambre',
   ];
   alignment=[
     'horizontal',
     'horizontal',
     'horizontal',
-    'vertical',
+    'horizontal',
     'horizontal',
     'vertical',
     'vertical',
     'horizontal',
-    'vertical',
-    'vertical',
   ];
 
 
