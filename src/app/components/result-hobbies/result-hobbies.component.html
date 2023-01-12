@@ -1,9 +1,10 @@
 <div id="div-result-hobbies">
-  <div id="content" class="items-align">
-    <img class="{{alignment}}" src="{{link}}" alt="{{altImg}}">
+  <h3 *ngIf="isArt=='true'">{{title}}</h3>
+  <div  id="content" class="items-align">
+    <img id="{{isArt}}" class="{{alignment}}" src="{{link}}" alt="{{altImg}}">
     <div id="h3-p">
-      <h3>{{title}}</h3>
-      <p>{{description}}</p>
+      <h3 *ngIf="isArt=='false'">{{title}}</h3>
+      <p *ngIf="isArt=='false'">{{description}}</p>
     </div>
-  </div>
+  </div >
 </div>

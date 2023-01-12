@@ -25,21 +25,21 @@ export class ArtSectionComponent {
   ];
   descriptionResult = [
     // 1/10
-    'blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne questionblablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne questionblablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question',
+    '',
     // 2/10
-    'blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne questionblablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne questionblablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question',
+    '',
     // 3/10
-    'blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne questionblablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne questionblablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question',
+    '',
     // 4/10
-    'blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne questionblablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne questionblablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question',
+    '',
     // 5/10
-    'blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne questionblablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne questionblablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question',
+    '',
     // 6/10
-    'blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne questionblablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne questionblablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question',
+    '',
     // 7/10
-    'blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne questionblablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne questionblablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question',
+    '',
     // 8/10
-    'blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne questionblablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne questionblablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question blablablabla a modifierblablablabla a modifierb super mega bien je sais pas ca c\'est une bonne question'
+    ''
   ];
   imgResult = [
     'assets/art/dessin-planisphere.jpg',
@@ -72,5 +72,5 @@ export class ArtSectionComponent {
     'horizontal',
   ];
 
-
+  ArtOrNot = "true";
 }

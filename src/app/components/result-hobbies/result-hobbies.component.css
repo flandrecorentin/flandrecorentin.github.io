@@ -9,6 +9,7 @@
   text-align: center;
  }
 img{
+  text-align: center;
   margin: 10px;
   border: var(--color2) ridge 5mm;
   /* put a background-color (same color as the border) */
@@ -29,4 +30,9 @@ h3{
 }
 p{
   font-size: 1.15rem;
+}
+#true{
+  max-height: 600px;
+  max-width: 800px;
+  margin: auto;
 }

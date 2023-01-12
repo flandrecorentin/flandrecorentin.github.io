@@ -11,4 +11,5 @@ export class ResultHobbiesComponent {
   @Input() link: string | undefined;
   @Input() altImg: string | undefined;
   @Input() alignment: string ="horizontal";
+  @Input() isArt: string= "false";
 }
