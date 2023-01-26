@@ -27,6 +27,7 @@ import { HobbiesSportComponent } from './hobbies-sport/hobbies-sport.component';
 import { HobbiesArtComponent } from './hobbies-art/hobbies-art.component';
 import { CounterHobbiesComponent } from './components/counter-hobbies/counter-hobbies.component';
 import { ResultHobbiesComponent } from './components/result-hobbies/result-hobbies.component';
+import { OneHobbiesComponent } from './components/one-hobbies/one-hobbies.component';
 
 
 @NgModule({
@@ -55,6 +56,7 @@ import { ResultHobbiesComponent } from './components/result-hobbies/result-hobbi
     HobbiesArtComponent,
     CounterHobbiesComponent,
     ResultHobbiesComponent,
+    OneHobbiesComponent,
   ],
     imports: [
         BrowserModule,

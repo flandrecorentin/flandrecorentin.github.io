@@ -1,0 +1,47 @@
+#div-one-hobbies{
+  border: 5px solid var(--black1);
+  background-color: var(--color3);
+  border-radius: 5px;
+  margin: 20px 30px;
+}
+a{
+  text-decoration: none;
+  color: var(--black1);
+}
+.number{
+  position: absolute;
+  background-color: var(--black2);
+  padding: 5px;
+  font-size: 1.3rem;
+}
+.left{
+  border-bottom-right-radius: 15px;
+  border-right: var(--black1) 3px solid;
+  border-bottom: var(--black1) 3px solid;
+}
+.logo{
+  //border: 2px solid red;
+  background-color: var(--black4);
+  float: right;
+  width: calc(100% - 37px);
+}
+
+.div-image{
+  border: green solid 2px;
+  width: 60%;
+}
+.div-infos{
+  width: 40%;
+  //border: blue solid 2px;
+  padding: 10px;
+  margin: 10px;
+  background-color: var(--black4);
+  border-radius: 15px;
+}
+
+#float-right{
+  float: right;
+}
+#float-left{
+  float: left;
+}

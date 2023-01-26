@@ -1,0 +1,29 @@
+<div id="div-one-hobbies">
+  <div *ngIf="numberNum%2-1" class="items-align">
+    <div class="div-image">
+      <p class="number left">n°{{numberNum+1}}</p>
+      <a *ngIf="isALink" href="{{link}}" target="_blank" class="{{logo}}" class="logo"></a>
+<!--      diaporama images    -->
+      <p>{{imageLink[0]}}</p>
+      <p>{{imageLink[1]}}</p>
+    </div>
+    <div class="div-infos">
+      <h3>{{title}}</h3>
+      <p>{{description}}</p>
+    </div>
+  </div>
+
+  <div *ngIf="numberNum%2" class="items-align">
+    <div class="div-infos">
+      <h3>{{title}}</h3>
+      <p>{{description}}</p>
+    </div>
+    <div class="div-image">
+      <p>{{numberNum+1}}</p>
+      <a href="{{link}}" target="_blank" class="{{logo}}" ></a>
+      <!--      diaporama images    -->
+      <p>{{imageLink[0]}}</p>
+      <p>{{imageLink[1]}}</p>
+    </div>
+  </div>
+</div>
