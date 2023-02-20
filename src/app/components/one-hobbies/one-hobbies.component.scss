@@ -67,19 +67,15 @@ img{
   border: 3px var(--black1) solid;
   //margin: 10px 0px;
 }
-.test{
-  //border: red 2px solid;
-  display: flex;
-  margin: auto;
-  //height: 100%;
-  //width: 100%;
-}
 
 .div-image{
+  border: 2px red solid;
+  display: flex;
+  margin: auto;
 }
 .div-infos{
   //width: 60%;
-  //border: blue solid 2px;
+  border: blue solid 2px;
   padding: 10px;
   margin: 15px;
   background-color: var(--black4);
