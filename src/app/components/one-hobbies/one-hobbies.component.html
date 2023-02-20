@@ -1,15 +1,17 @@
 <div id="div-one-hobbies">
   <div *ngIf="numberNum%2-1" class="items-align">
     <div class="div-image">
-      <p class="number left">n°{{numberNum+1}}</p>
-      <a *ngIf="isALink" href="{{link}}" target="_blank" class="{{logo}}" class="logo"></a>
-<!--      diaporama images    -->
-      <p>{{imageLink[0]}}</p>
-      <p>{{imageLink[1]}}</p>
+<!--      <p class="number left">n°{{numberNum+1}}</p>-->
+      <div class="test">
+        <i  (click)="previousImage(numberNum+1)" id="arrow1"><</i>
+        <img src="{{imageLink[numberImage]}}">
+        <i (click)="nextImage(numberNum+1)" id="arrow2">></i>
+      </div>
     </div>
     <div class="div-infos">
       <h3>{{title}}</h3>
       <p>{{description}}</p>
+      <a *ngIf="isALink" href="{{link}}" target="_blank" class="{{logo}}" class="logo"></a>
     </div>
   </div>
 
@@ -17,13 +19,16 @@
     <div class="div-infos">
       <h3>{{title}}</h3>
       <p>{{description}}</p>
+      <a *ngIf="isALink" href="{{link}}" target="_blank" class="{{logo}}" class="logo"></a>
     </div>
     <div class="div-image">
-      <p>{{numberNum+1}}</p>
-      <a href="{{link}}" target="_blank" class="{{logo}}" ></a>
-      <!--      diaporama images    -->
-      <p>{{imageLink[0]}}</p>
-      <p>{{imageLink[1]}}</p>
+<!--      <p class="number right">n°{{numberNum+1}}</p>-->
+      <div class="test">
+        <!--        <p class="fa-solid fa-arrow-left" class="arrow">A</p>-->
+        <i  (click)="previousImage(numberNum+1)" id="arrow3"><</i>
+        <img src="{{imageLink[numberImage]}}">
+        <i (click)="nextImage(numberNum+1)" id="arrow4">></i>
+      </div>
     </div>
   </div>
 </div>

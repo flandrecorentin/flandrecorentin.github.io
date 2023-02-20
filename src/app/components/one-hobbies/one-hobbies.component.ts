@@ -14,4 +14,23 @@ export class OneHobbiesComponent {
   @Input() title:string | undefined;
   @Input() description:string | undefined;
   remainderDivision:number =(this.numberNum%2);
+  numberImage = 0;
+
+  previousImage(number: number) {
+    if(this.numberImage !=0){
+      this.numberImage--;
+    }
+    else{
+      this.numberImage = this.imageLink.length - 1;
+    }
+  }
+
+  nextImage(number: number) {
+    if(this.numberImage !=this.imageLink.length -1){
+      this.numberImage++;
+    }
+    else{
+      this.numberImage = 0;
+    }
+  }
 }
