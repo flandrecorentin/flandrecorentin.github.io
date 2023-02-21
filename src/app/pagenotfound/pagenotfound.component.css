@@ -12,6 +12,11 @@ a{
   color: dodgerblue;
   font-weight: bold;
   /*font-size: 0.9rem;*/
+  transition-duration: 0.5s;
+}
+a:hover{
+  color: rebeccapurple;
+  transform: scale(1.1);
 }
 p{
   font-size: 1.2rem;

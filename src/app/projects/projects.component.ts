@@ -42,10 +42,10 @@ export class ProjectsComponent {
     'https://flandrecorentin.notion.site/Documentation-miniged-d0682cd62f4a48aea9d714b1e5daa6bf',
     'https://github.com/flandrecorentin/Messagerie4IF_G2_S1',
     'https://github.com/flandrecorentin/Mini-jeu_JAVA',
-    'TRAJET C++', //TODO lien pour l'archive
+    'https://github.com/flandrecorentin/', //TODO lien pour l'archive
     'https://github.com/flandrecorentin/eau-the-l-eau',
     'https://flandrecorentin.github.io/',
-    'linkProject',
+    'https://github.com/flandrecorentin/FamilyWall',
     'linkProject',
   ];
   hobbies=[
@@ -55,7 +55,7 @@ export class ProjectsComponent {
     ],
     // [1] -> 2/x
     [   '[2] Deliverapp',
-      'Deliverapp est une application qui calcule les meilleures tournées de livraisons de colis.  Cela prend en compte l\'adresse et le créneau de livraison et les livreurs. Deliverapp proposent différentes fonctionnalités: ajout/modification/suppression d\'une livraison, calcul de tournées, impression de la feuille de route (chemin et horaires d\'une tournée), sauvegarde/chargement des listes de livraisons, ajout/suppresion rapide d\'une livraison après calcul, etc. Il s\'agit d\'un projet universitaire réalisé en hexanôme et représente de 72h de travail par personne (moitié en séance et moitié en dehors). Deliverapp est codé en Java 19.0.1 et utilise la bibliothèque JavaFX pour les interfaces.',
+      'Deliverapp est une application qui calcule les meilleures tournées de livraisons de colis.  Cela prend en compte l\'adresse et le créneau de livraison et les livreurs. Deliverapp proposent différentes fonctionnalités: ajout/modification/suppression d\'une livraison, calcul de tournées, impression de la feuille de route (chemin et horaires d\'une tournée), sauvegarde/chargement des listes de livraisons, ajout/suppresion rapide d\'une livraison après calcul, etc. Il s\'agit d\'un projet universitaire réalisé en hexanôme et représente de 72h de travail par personne (moitié en séance et moitié en dehors). Deliverapp est codé en Java 19.0.1 et utilise la bibliothèque JavaFX pour les interfaces. L\'organisation du projet a utilisé la méthodologie Agile.',
     ],
     // [2] -> 3/x
     [   '[3] Portfolio-Flandre-Corentin',
@@ -79,7 +79,7 @@ export class ProjectsComponent {
     ],
     // [7] -> 8/x
     [   '[8] Trajet C++',
-      'description blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla',
+      'Trajet C++ est une application sur terminal codé en C++ dans le cadre d\'un projet universitaire de 3° année d\'INSA. L\'application permet de gérer un catalogue de divers trajets et comporte de nombreuses fonctionnalités: impression du catalogue, ajout de trajet simple, ajout de trajet complexe (combinaise de trajets simples ou complexes), recherche, chargement d\'un catalogue, sauvegarde d\'un catalogue. Trajet C++ représente 16heures de travail et a été fait avec un ami..',
     ],
     // [8] -> 9/x
     [   '[9] eau-the-l-eau (Intelligence Artificielle)',
@@ -90,8 +90,8 @@ export class ProjectsComponent {
       'Comme son nom l\'indique, il s\'agit de mon premier Portfolio et même de mon premier site web que j\'ai créé. Pour ce projet j\'ai réalisé mes maquettes sur l\'outil Figma. Au niveau technologie c\'etait l\'occasion d\'apprendre HTML/CSS/JavaScript.',
     ],
     // [10] -> 11/x
-    [   '[11] FamillyWall',
-      'description blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla',
+    [   '[11] FamilyWall',
+      '[Projet en cours] FamilyWall est une application web de messagerie en ligne maximisant l\'expérience utilisateur à fort enjeu environnementaux et sociétaux. FamilyWall est très sécurisé (protocole de cryptage de bout en bout, fonctionnalités sans dangers: pas de suggestion d\'amis etc.), très respectueux de l\'environnement possible (suppression d\'historique au bout de X temps déterminé par l\'utilisateur, baisse de la qualité des fichiers médias sauf contre-indication de l\'utilisateur). L\'objectif de FamilyWall est de pouvoir communiquer à distance de manière simple et raisonnable :)',
     ]
   ];
 }
