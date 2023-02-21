@@ -13,10 +13,10 @@ export class ProjectsComponent {
     ['yes', 'fa-brands fa-github fa-2x'],
     ['yes',  'fa-brands fa-docker fa-2x'],
     ['yes',  'fa-brands fa-github fa-2x'],
+    ['yes',  'fa-brands fa-java fa-3x'],
     ['yes',  'fa-brands fa-github fa-2x'],
-    ['no',  'fa-brands fa-github fa-2x'],
     ['yes',  'fa-brands fa-github fa-2x'],
-    ['no',  'fa-brands fa-github fa-2x'],
+    ['yes',  'fa-brands fa-codepen   fa-2x'],
     ['no',  'fa-brands fa-github fa-2x'],
     ['no',  'fa-brands fa-github fa-2x']
   ];
@@ -28,10 +28,10 @@ export class ProjectsComponent {
     ['assets/IT-projects/miniged/schema.jpg'], // TODO rajouter photos miniged
     ['assets/IT-projects/C-Messagerie/img1.png', 'assets/IT-projects/C-Messagerie/img2.png', 'assets/IT-projects/C-Messagerie/img3.png'],
     ['assets/IT-projects/Mini-jeu-JAVA/demineur1.png', 'assets/IT-projects/Mini-jeu-JAVA/demineur2.png', 'assets/IT-projects/Mini-jeu-JAVA/casse-briques.png', 'assets/IT-projects/Mini-jeu-JAVA/snake.jpg', 'assets/IT-projects/Mini-jeu-JAVA/home.jpg'],
-    ['link1', 'link2'],
+    ['assets/IT-projects/TrajetC++/test1.png', 'assets/IT-projects/TrajetC++/test2.png', 'assets/IT-projects/TrajetC++/test3.png', 'assets/IT-projects/TrajetC++/test4.png', 'assets/IT-projects/TrajetC++/test5.png', 'assets/IT-projects/TrajetC++/test6.png', 'assets/IT-projects/TrajetC++/test7.png'],
     ['assets/IT-projects/eau-the-l-eau/game1.png', 'assets/IT-projects/eau-the-l-eau/game2.png', 'assets/IT-projects/eau-the-l-eau/choice-player.png'],
-    ['link1', 'link2'],
-    ['link1', 'link2'],
+    ['assets/IT-projects/Ancien-Portfolio/home.jpg', 'assets/IT-projects/Ancien-Portfolio/cursus.jpg', 'assets/IT-projects/Ancien-Portfolio/projects.jpg', 'assets/IT-projects/Ancien-Portfolio/hobbies.jpg', 'assets/IT-projects/Ancien-Portfolio/diaporama-sport.jpg', 'assets/IT-projects/Ancien-Portfolio/diaporama-art.jpg'],
+    ['assets/IT-projects/FamillyWall/home.png', 'assets/IT-projects/FamillyWall/register.png'],
     ['link1', 'link2']
   ];
   links = [
@@ -42,9 +42,9 @@ export class ProjectsComponent {
     'https://flandrecorentin.notion.site/Documentation-miniged-d0682cd62f4a48aea9d714b1e5daa6bf',
     'https://github.com/flandrecorentin/Messagerie4IF_G2_S1',
     'https://github.com/flandrecorentin/Mini-jeu_JAVA',
-    'TRAJET C++',
+    'TRAJET C++', //TODO lien pour l'archive
     'https://github.com/flandrecorentin/eau-the-l-eau',
-    'linkProject',
+    'https://flandrecorentin.github.io/',
     'linkProject',
     'linkProject',
   ];
@@ -86,8 +86,8 @@ export class ProjectsComponent {
       'Derrière ce jeu de mot (plus que médiocre je vous l\'accorde) réalisé par moi même, se cache le jeu de l\'othello. Ce projet universitaire a pour but de s\'initier à l\'IA en analysant la puissance des algorithmes qui existent pour gagner à l\'othello et à la création d\'heuristiques pour améliorer/perfectionner l\'IA. On arrive à une IA capable de jouer en temps raisonnable le meilleur coup en profondeur 4. Le projet est réalisé en hexanôme tout en Prolog mais le code est grandement tiré de l\'utilisateur GitHub pchampio, nous avons principalement fait de l\'analyse et de la modification de code. Ce projet nous a pris 12h par personne.',
     ],
     // [9] -> 10/x
-    [   '[10] ancien Portfolio',
-      'description blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla',
+    [   '[10] Ancien Portfolio',
+      'Comme son nom l\'indique, il s\'agit de mon premier Portfolio et même de mon premier site web que j\'ai créé. Pour ce projet j\'ai réalisé mes maquettes sur l\'outil Figma. Au niveau technologie c\'etait l\'occasion d\'apprendre HTML/CSS/JavaScript.',
     ],
     // [10] -> 11/x
     [   '[11] FamillyWall',
