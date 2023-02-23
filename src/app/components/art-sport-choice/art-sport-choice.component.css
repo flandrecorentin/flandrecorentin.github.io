@@ -14,7 +14,7 @@ h2{
 
 #curriculum-choice{
   margin: 20px 0px;
-//border: 2px solid red;
+/*//border: 2px solid red;*/
   justify-content: center;
   text-align: center;
 }
@@ -42,7 +42,7 @@ h2{
   width: 5px;
   height: 80px;
   transform: translateY(-25%) translateX(100px);
-  //background-color: red;
+  /*//background-color: red;*/
   animation: strokeAnimationVertical2 1.5s alternate-reverse infinite;
 }
 #bar3{

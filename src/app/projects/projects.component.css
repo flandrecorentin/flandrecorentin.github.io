@@ -47,7 +47,7 @@ h2{
   width: 5px;
   height: 80px;
   transform: translateY(-25%) translateX(220px);
-//background-color: red;
+/*background-color: red;*/
   animation: strokeAnimationVertical2 1.5s alternate-reverse infinite;
 }
 #bar3{

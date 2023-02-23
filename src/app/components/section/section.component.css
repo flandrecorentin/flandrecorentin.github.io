@@ -46,12 +46,6 @@ svg{
 .text-align-center{
   text-align: center;
 }
-
-
-
-
-
-
 /*ANIMATION SVG CURRICULUM*/
 .algo{
   fill: white;
@@ -76,7 +70,6 @@ svg{
     fill: white;
   }
 }
-
 /*2*/
 #algo2{
   animation: algoAnimation2 8s 1s infinite;
@@ -98,8 +91,6 @@ svg{
     fill: white;
   }
 }
-
-
 /*1*/
 #algo3{
   animation: algoAnimation3 8s 1s infinite;
@@ -121,7 +112,6 @@ svg{
     fill: white;
   }
 }
-
 /*5*/
 #algo4{
   animation: algoAnimation4 8s 1s infinite;
@@ -143,9 +133,6 @@ svg{
     fill: white;
   }
 }
-
-
-
 /*6*/
 #algo5{
   animation: algoAnimation5 8s 1s infinite;
@@ -167,7 +154,6 @@ svg{
     fill: white;
   }
 }
-
 /*3*/
 #algo6{
   animation: algoAnimation6 8s 1s infinite;
@@ -189,8 +175,6 @@ svg{
     fill: white;
   }
 }
-
-
 /*3*/
 #algo6{
   animation: algoAnimation6 8s 1s infinite;
@@ -212,8 +196,6 @@ svg{
     fill: white;
   }
 }
-
-
 /*2*/
 #algo7{
   animation: algoAnimation7 8s 1s infinite;
@@ -235,8 +217,6 @@ svg{
     fill: white;
   }
 }
-
-
 /*9*/
 #algo8{
   animation: algoAnimation8 8s 1s infinite;
@@ -258,7 +238,6 @@ svg{
     fill: white;
   }
 }
-
 /*4*/
 #algo9{
   animation: algoAnimation9 8s 1s infinite;
@@ -325,9 +304,7 @@ svg{
   91%{
     fill: white;
   }
-
 }
-
 /*7*/
 #algo12{
   animation: algoAnimation12 8s 1s infinite;
@@ -349,17 +326,6 @@ svg{
     fill: white;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
 /*ANIMATION SVG PROJECTS*/
 #histo1{
   animation: histoAnimation 3s alternate infinite;
@@ -377,8 +343,6 @@ svg{
 }#histo6{
   animation: histoAnimation 2.4s alternate infinite;
 }
-
-
 @keyframes histoAnimation {
   from{
     transform: translateY(0%) scale(100%, 100%);
@@ -431,13 +395,6 @@ svg{
     transform: translateY(-0%);
   }
 }
-
-
-
-
-
-
-
 /*ANIMATION SPORT*/
 #bike{
   animation: bikeAnimation 12s linear infinite;
@@ -453,10 +410,6 @@ svg{
     transform: translateX(50%) translateY(-13%);
   }
 }
-
-
-
-
 /*Art*/
 .img-art{
   padding: 0px;
