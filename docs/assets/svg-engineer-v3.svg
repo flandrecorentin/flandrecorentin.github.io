@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 800 240" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .locomotive{
+      animation: locomotiveAnim alternate 4s infinite;
+      /*transform: translateY(-150%) translateX(25%) scale(2);*/
+      /*transform: scale(2);*/
+    }
+    @keyframes  locomotiveAnim {
+      from{
+        transform: translateY(-150%) translateX(28%) scale(2);
+      }
+      to{
+        transform: translateY(-150%) translateX(45%) scale(2);
+      }
+    }
+  </style>
+  <g transform="matrix(2.526325, 0, 0, 2.526325, -110.461716, 88.455185)" style="">
+    <rect width="48" height="48" fill="white" fill-opacity="0.01" x="167.494" y="-9.556"/>
+    <path d="M 201.494 2.444 L 201.494 10.444 L 201.494 11.444 C 198.539 11.444 195.883 12.726 194.052 14.764 C 192.461 16.534 191.494 18.876 191.494 21.444 C 191.494 22.023 191.543 22.59 191.637 23.142 C 192.152 26.148 194.008 28.697 196.568 30.148 C 193.905 30.953 190.371 31.444 186.494 31.444 C 178.209 31.444 171.494 29.205 171.494 26.444 L 171.494 18.444 L 171.494 10.444 L 171.494 2.444" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" style="fill: rgb(166, 199, 243);"/>
+    <path d="M 211.494 21.444 C 211.494 26.967 207.016 31.444 201.494 31.444 C 199.703 31.444 198.022 30.973 196.568 30.148 C 194.008 28.697 192.152 26.148 191.637 23.142 C 191.543 22.59 191.494 22.023 191.494 21.444 C 191.494 18.876 192.461 16.534 194.052 14.764 C 195.883 12.726 198.539 11.444 201.494 11.444 C 207.016 11.444 211.494 15.921 211.494 21.444 Z" fill="#2F88FF" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 201.494 2.444 C 201.494 5.205 194.778 7.444 186.494 7.444 C 178.209 7.444 171.494 5.205 171.494 2.444 C 171.494 -0.318 178.209 -2.556 186.494 -2.556 C 194.778 -2.556 201.494 -0.318 201.494 2.444 Z" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" style="fill: rgb(166, 199, 243);"/>
+    <path d="M 171.494 18.444 C 171.494 21.205 178.209 23.444 186.494 23.444 C 188.301 23.444 190.033 23.337 191.637 23.142" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 171.494 10.444 C 171.494 13.205 178.209 15.444 186.494 15.444 C 189.25 15.444 191.833 15.196 194.052 14.764" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 201.494 17.444 L 204.958 19.444 L 204.958 23.444 L 201.494 25.444 L 198.03 23.444 L 198.03 19.444 L 201.494 17.444 Z" fill="#2F88FF" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="matrix(1.016859, 0, 0, 1.016859, 2.685678, -15.185934)" style="">
+    <rect x="32.603" y="171" width="246.907" height="27.908" style="stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-miterlimit: 42; stroke-linejoin: round; fill: rgb(131, 157, 223); stroke-width: 5px;"/>
+    <rect x="32.675" y="37.18" width="246.561" height="134.435" style="stroke: rgb(0, 0, 0); stroke-width: 5px; stroke-linecap: round; stroke-miterlimit: 16; stroke-linejoin: bevel; fill: rgba(0, 0, 0, 0.76);"/>
+    <rect x="70.79" y="224.988" width="164.699" height="4.097" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-width: 6px; stroke-linejoin: round;"/>
+    <rect x="54.067" y="63.652" width="76.507" height="4.896" style="stroke-linejoin: round; stroke: rgb(0, 0, 0); fill: rgb(33, 166, 48); paint-order: fill;"/>
+    <rect x="145.556" y="63.51" width="76.507" height="4.896" style="stroke-linejoin: round; stroke: rgb(0, 0, 0); fill: rgb(33, 166, 48); paint-order: fill;"/>
+    <rect x="54.81" y="86.173" width="202.825" height="4.896" style="stroke-linejoin: round; stroke: rgb(0, 0, 0); fill: rgb(33, 166, 48); paint-order: fill;"/>
+    <rect x="128.153" y="110.685" width="76.507" height="4.896" style="stroke-linejoin: round; stroke: rgb(0, 0, 0); fill: rgb(33, 166, 48); paint-order: fill;"/>
+    <rect x="56.492" y="134.486" width="76.507" height="4.896" style="stroke-linejoin: round; stroke: rgb(0, 0, 0); fill: rgb(33, 166, 48); paint-order: fill;"/>
+    <rect x="55.615" y="110.62" width="44.935" height="4.896" style="stroke-linejoin: round; stroke: rgb(0, 0, 0); fill: rgb(33, 166, 48); paint-order: fill;"/>
+    <rect x="56.301" y="155.955" width="199.086" height="4.896" style="stroke-linejoin: round; stroke: rgb(0, 0, 0); fill: rgb(33, 166, 48); paint-order: fill;"/>
+    <path style="stroke: rgb(0, 0, 0); fill: rgb(190, 213, 241); stroke-width: 5px;" d="M 100.288 222.94 C 103.68 227.35 137.012 209.147 129.786 199.753 L 173.46 199.587 C 166.956 207.536 195.973 226.262 199.026 222.53"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 101.985054, -38.709625)">
+    <rect x="651.852" y="143.301" width="9.425" height="36.129" style="stroke: rgb(0, 0, 0); stroke-width: 2px; fill: rgb(83, 59, 13);"/>
+    <path d="M 657.981 99.739 L 693.831 149.433 L 622.13 149.433 L 657.981 99.739 Z" style="stroke: rgb(0, 0, 0); stroke-width: 2px; fill: rgb(64, 100, 58);" />
+    <path d="M 658.216 60.113 L 690.872 125.492 L 625.56 125.492 L 658.216 60.113 Z" style="stroke-width: 2px; stroke: rgb(0, 0, 0); fill: rgb(64, 100, 58);"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, -186.423874, -24.961826)">
+    <rect x="651.852" y="143.301" width="9.425" height="36.129" style="stroke: rgb(0, 0, 0); stroke-width: 2px; fill: rgb(83, 59, 13);"/>
+    <path d="M 657.981 99.739 L 693.831 149.433 L 622.13 149.433 L 657.981 99.739 Z" style="stroke: rgb(0, 0, 0); stroke-width: 2px; fill: rgb(64, 100, 58);" />
+    <path d="M 658.216 60.113 L 690.872 125.492 L 625.56 125.492 L 658.216 60.113 Z" style="stroke-width: 2px; stroke: rgb(0, 0, 0); fill: rgb(64, 100, 58);"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 70.399628, -0.396096)">
+    <rect x="651.852" y="143.301" width="9.425" height="36.129" style="stroke: rgb(0, 0, 0); stroke-width: 2px; fill: rgb(83, 59, 13);"/>
+    <path d="M 657.981 99.739 L 693.831 149.433 L 622.13 149.433 L 657.981 99.739 Z" style="stroke: rgb(0, 0, 0); stroke-width: 2px; fill: rgb(64, 100, 58);"/>
+    <path d="M 658.216 60.113 L 690.872 125.492 L 625.56 125.492 L 658.216 60.113 Z" style="stroke-width: 2px; stroke: rgb(0, 0, 0); fill: rgb(64, 100, 58);"/>
+  </g>
+  <g class="locomotive" id="_05-Locomotive" data-name="05-Locomotive" transform="matrix(1.88934, 0, 0, 1.88934, 266.907928, -387.535675)" style="">
+    <g id="Group_103" data-name="Group 103">
+      <g id="Group_98" data-name="Group 98">
+        <path id="Path_114" data-name="Path 114" d="M135,282.5H125a2.5,2.5,0,0,1-2.5-2.5V270a2.5,2.5,0,0,1,2.5-2.5h10a2.5,2.5,0,0,1,2.5,2.5v10A2.5,2.5,0,0,1,135,282.5Zm-7.5-5h5v-5h-5Z" fill="#fd8f50"/>
+      </g>
+      <g id="Group_99" data-name="Group 99">
+        <path id="Path_115" data-name="Path 115" d="M190,262.5h-7.5V245a2.5,2.5,0,0,0-2.5-2.5H170a2.5,2.5,0,0,0-2.5,2.5v17.5h-20V250a2.5,2.5,0,0,0-2.5-2.5H110a2.5,2.5,0,0,0-2.5,2.5v10a2.5,2.5,0,0,0,2.5,2.5h2.5V290l0,.022A12.484,12.484,0,1,0,130,307.469a12.454,12.454,0,0,0,20,0,12.483,12.483,0,0,0,22.248-4.969h5.69a7.427,7.427,0,0,0-.438,2.5,7.5,7.5,0,1,0,14.26-3.227A2.487,2.487,0,0,0,192.5,300V265A2.5,2.5,0,0,0,190,262.5Zm-17.5,5h5v20h-5Zm-2.524,25H187.5v5H172.248A12.423,12.423,0,0,0,169.976,292.5Zm17.524-25v20h-5v-20Zm-15-20h5v15h-5Zm-5,20v20h-20v-20Zm-55-15h30v5h-30Zm5,35v-25h25v25Zm2.5,20a7.5,7.5,0,1,1,7.5-7.5A7.508,7.508,0,0,1,120,307.5Zm20,0a7.5,7.5,0,1,1,7.5-7.5A7.508,7.508,0,0,1,140,307.5Zm20,0a7.5,7.5,0,1,1,7.5-7.5A7.508,7.508,0,0,1,160,307.5Zm25,0a2.5,2.5,0,1,1,2.5-2.5A2.5,2.5,0,0,1,185,307.5Z" fill="#c74a2e"/>
+        <circle id="Ellipse_62" data-name="Ellipse 62" cx="2.5" cy="2.5" r="2.5" transform="translate(117.5 297.532)" fill="#c74a2e"/>
+        <circle id="Ellipse_63" data-name="Ellipse 63" cx="2.5" cy="2.5" r="2.5" transform="translate(137.5 297.532)" fill="#c74a2e"/>
+        <circle id="Ellipse_64" data-name="Ellipse 64" cx="2.5" cy="2.5" r="2.5" transform="translate(157.5 297.532)" fill="#c74a2e"/>
+      </g>
+      <g id="Group_100" data-name="Group 100">
+        <path id="Path_116" data-name="Path 116" d="M165,237.5H145a2.5,2.5,0,0,1,0-5h20a2.5,2.5,0,0,1,0,5Z" fill="#fd8f50"/>
+      </g>
+      <g id="Group_101" data-name="Group 101">
+        <path id="Path_117" data-name="Path 117" d="M135,237.5H110a2.5,2.5,0,0,1,0-5h25a2.5,2.5,0,0,1,0,5Z" fill="#fd8f50"/>
+      </g>
+      <g id="Group_102" data-name="Group 102">
+        <path id="Path_118" data-name="Path 118" d="M175,242.5a2.5,2.5,0,0,1-2.5-2.5,2.5,2.5,0,0,0-2.5-2.5,2.5,2.5,0,0,1,0-5,7.508,7.508,0,0,1,7.5,7.5A2.5,2.5,0,0,1,175,242.5Z" fill="#fd8f50"/>
+      </g>
+    </g>
+  </g>
+</svg>
