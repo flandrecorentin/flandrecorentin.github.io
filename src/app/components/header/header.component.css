@@ -67,11 +67,39 @@ header{
   /*background-color: red;*/
 }
 #link-same-page-projects{
-  padding: 7px
+  padding: 7px;
 }
 #link-same-page-home{
   cursor: pointer;
   font-size: 3.5rem;
   padding:0px 15px;
   border-right: var(--black1) 4px solid;
+}
+
+
+@media screen and (max-width: 800px) {
+  header {
+    /*background-color: red;*/
+  }
+
+  .link-same-page {
+    font-size: 0.6rem;
+    padding: 25px 5px;
+    /*border: none;*/
+  }
+  #link-same-page-home{
+    padding: 10px 0px 0px 0px;
+    font-size: 2rem;
+    /*border: none;*/
+  }
+  #link-same-page-projects{
+    font-size: 0.6rem;
+    padding: 17px 0px;
+    max-width: 100px;
+  }
+  #darkmod{
+    padding: 25px 5px;
+    font-size: 0.6rem;
+    /*border: none;*/
+  }
 }
