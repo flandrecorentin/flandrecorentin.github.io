@@ -86,3 +86,9 @@ h2{
     transform: translateX(-220px) translateY(-65%);
   }
 }
+
+@media screen and (max-width: 800px) {
+  h2{
+    font-size: 1.2rem;
+  }
+}

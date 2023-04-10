@@ -49,3 +49,13 @@ p{
   background-color: var(--black2);
   border: 3px  var(--black1) solid ;
 }
+
+
+@media screen and (max-width: 800px) {
+  .title{
+    font-size: 1rem;
+  }
+  p{
+    font-size: 0.7rem;
+  }
+}

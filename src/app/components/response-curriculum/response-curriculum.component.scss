@@ -26,3 +26,16 @@ iframe{
   background-color: var(--black4);
   border-radius: 10px;
 }
+
+
+@media screen and (max-width: 800px) {
+  h3{
+    font-size: 1rem;
+  }
+  p{
+    font-size: 0.6rem;
+  }
+  iframe{
+    max-width: 200px;
+  }
+}

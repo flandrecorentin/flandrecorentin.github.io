@@ -36,3 +36,15 @@ app-sectionroute{
   /*border: dashed 5px var(--black1);*/
   position: absolute;
 }
+
+
+@media screen and (max-width: 800px) {
+  app-section{
+    width: 85%;
+    /*border: 5px solid red;*/
+  }
+  app-sectionroute{
+    width: 15%;
+    /*border: 5px solid yellow;*/
+  }
+}

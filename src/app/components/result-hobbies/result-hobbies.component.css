@@ -36,3 +36,35 @@ p{
   max-width: 800px;
   margin: auto;
 }
+
+@media screen and (max-width: 1000px) {
+  #content{
+    display: initial;
+  }
+  h3{
+    font-size: 1.2rem;
+    padding: 0px;
+    margin: 10px;
+  }
+  p{
+    font-size: 0.7rem;
+  }
+  #div-result-hobbies{
+    margin: 0px;
+  }
+  img{
+    max-width: 320px;
+    /*max-width: 80%;*/
+    max-height: 400px;
+  }
+  .horizontal{
+    max-height: 350px;
+  }
+  .vertical{
+    max-width: 450px;
+  }
+  #true{
+    max-width: 80%;
+    margin: auto;
+  }
+}

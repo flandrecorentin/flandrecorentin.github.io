@@ -422,3 +422,13 @@ svg{
 .div-img{
   padding: 0px 30px;
 }
+
+
+@media screen and (max-width: 800px) {
+  #h3-section{
+    font-size: 0.8rem;
+  }
+  #p-section{
+    font-size: 0.6rem;
+  }
+}

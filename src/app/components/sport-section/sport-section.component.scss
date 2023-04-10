@@ -4,3 +4,9 @@
 #description{
   margin: 10px 50px
 }
+
+@media screen and (max-width: 800px) {
+  #description{
+    font-size: 0.8rem;
+  }
+}

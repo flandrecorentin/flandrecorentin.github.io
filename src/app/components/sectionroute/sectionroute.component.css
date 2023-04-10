@@ -57,3 +57,17 @@ h3{
   border-top: var(--color4) 5px solid;
   cursor: pointer;
 }
+
+
+@media screen and (max-width: 800px) {
+  h3{
+    font-size: 1rem;
+  }
+  #part-section-route{
+    padding: 10px 0px;
+    max-width: 10px;
+    /*margin-top: 150px;*/
+    /*min-width: 100px;*/
+    /*transform: translateZ(50%);*/
+  }
+}
