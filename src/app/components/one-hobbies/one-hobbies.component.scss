@@ -99,10 +99,10 @@ img{
   //border: 2px red solid;
   display: flex;
   margin: auto;
-  width: 40%;
+  width: 50%;
 }
 .div-infos{
-  width: 60%;
+  width: 50%;
   //border: blue solid 2px;
   padding: 10px;
   margin: 15px;
@@ -117,6 +117,50 @@ img{
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
+  .div-infos {
+    width: 40%;
+  }
+  .div-image {
+    width: 60%;
+  }
+  h3{
+    font-size: 1.1rem;
+    padding: 1px;
+  }
+  p{
+    font-size: 0.75rem;
+    padding: 2px;
+  }
+}
 
+
+@media screen and (max-width: 700px) {
+  h3{
+    font-size: 0.9rem;
+    padding: 1px;
+  }
+  p{
+    font-size: 0.6rem;
+    padding: 2px;
+  }
+  #div-one-hobbies{
+    margin: 50px 5px;
+    text-align: center;
+  }
+  .items-align{
+    display: initial;
+  }
+  .div-infos {
+    width: 80%;
+    margin: auto;
+  }
+  .div-image {
+    margin: auto;
+    width: 80%;
+  }
+  #arrow1, #arrow2, #arrow3,#arrow4 {
+    font-size: 2rem;
+    padding: 15px 7px;
+  }
 }
