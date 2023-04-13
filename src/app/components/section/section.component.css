@@ -431,4 +431,21 @@ svg{
   #p-section{
     font-size: 0.6rem;
   }
+  #section {
+    margin: 20px 5px;
+  }
+  #section:hover {
+    animation: sectionAnimMini ease-in-out 1s infinite;
+  }
+  @keyframes  sectionAnimMini{
+    from{
+      transform: scale(1.0);
+    }
+    50%{
+      transform: scale(1.03);
+    }
+    to{
+      transform: scale(1.0);
+    }
+  }
 }

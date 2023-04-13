@@ -61,7 +61,7 @@ h3{
 
 @media screen and (max-width: 800px) {
   h3{
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   #part-section-route{
     padding: 10px 0px;

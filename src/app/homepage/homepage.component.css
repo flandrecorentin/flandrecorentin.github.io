@@ -40,11 +40,11 @@ app-sectionroute{
 
 @media screen and (max-width: 800px) {
   app-section{
-    width: 85%;
+    width: 75%;
     /*border: 5px solid red;*/
   }
   app-sectionroute{
-    width: 15%;
+    width: 25%;
     /*border: 5px solid yellow;*/
   }
 }

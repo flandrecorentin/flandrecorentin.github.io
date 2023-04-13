@@ -91,4 +91,46 @@ h2{
   h2{
     font-size: 1.2rem;
   }
+  #bar1{
+    height: 5px;
+    width: 320px;
+    animation: strokeAnimationHorizontal 4s alternate-reverse infinite;
+    transform: translateX(-40%);
+  }
+
+  #bar2{
+    width: 5px;
+    height: 80px;
+    transform: translateY(-25%) translateX(140px);
+    /*background-color: red;*/
+    animation: strokeAnimationVertical2Mini 1.5s alternate-reverse infinite;
+  }
+  #bar3{
+    height: 5px;
+    width: 320px;
+    transform: translateX(-40%);
+    animation: strokeAnimationHorizontal 2.5s alternate-reverse infinite;
+  }
+  #bar4{
+    width: 5px;
+    height: 80px;
+    transform: translateX(-140px) translateY(-80%);
+    animation: strokeAnimationVertical4Mini 2s alternate-reverse infinite;
+  }
+  @keyframes  strokeAnimationVertical2Mini{
+    from{
+      transform: translateY(-30%) translateX(140px);
+    }
+    to{
+      transform: translateY(-10%) translateX(140px);
+    }
+  }
+  @keyframes  strokeAnimationVertical4Mini{
+    from{
+      transform: translateX(-140px) translateY(-80%);
+    }
+    to{
+      transform: translateX(-140px) translateY(-65%);
+    }
+  }
 }

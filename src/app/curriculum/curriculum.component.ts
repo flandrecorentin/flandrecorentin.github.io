@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./curriculum.component.css'],
 })
 export class CurriculumComponent{
-  textButton = ['Collège/Lycée', 'INSA Lyon (actuellement', 'Ingénieur... :)'];
+  textButton = ['Collège/Lycée', 'INSA Lyon (actuellement)', 'Ingénieur... :)'];
   styleCurriculum1 = 'styleCurriculum';
   styleCurriculum2 = 'styleCurriculumActive';
   styleCurriculum3 = 'styleCurriculum';

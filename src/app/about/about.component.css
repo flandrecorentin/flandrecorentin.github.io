@@ -88,3 +88,18 @@ ul{
     transform: translateX(-180px) translateY(-65%);
   }
 }
+
+@media screen and (max-width: 800px) {
+  h2{
+    font-size: 1.3rem;
+  }
+  ul{
+    font-size: 0.7rem;
+  }
+  #description{
+    font-size: 0.7rem;
+  }
+  #div-pageabout{
+    padding: 80px 10px 20px 10px;
+  }
+}
