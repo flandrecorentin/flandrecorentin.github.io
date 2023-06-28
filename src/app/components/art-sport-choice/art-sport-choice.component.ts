@@ -22,7 +22,7 @@ export class ArtSportChoiceComponent implements OnInit{
     this.styleHobbies2 = this.styleHobbiesActive;
   }
   ngOnInit(){
-    console.log('SALUTTTT');
+    // console.log('SALUTTTT');
     switch (this.section) {
       case 'art':
         this.styleHobbies1 = this.styleHobbies;

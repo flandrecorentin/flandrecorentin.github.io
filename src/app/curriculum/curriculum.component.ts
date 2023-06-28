@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-curriculum',
@@ -30,7 +30,6 @@ export class CurriculumComponent{
     this.styleCurriculum1 = 'styleCurriculumActive';
     this.styleCurriculum2 = 'styleCurriculum';
     this.styleCurriculum3 = 'styleCurriculum';
-    console.log('click1');
   }
 
   onClick2() {
@@ -38,14 +37,12 @@ export class CurriculumComponent{
     this.styleCurriculum1 = 'styleCurriculum';
     this.styleCurriculum2 = 'styleCurriculumActive';
     this.styleCurriculum3 = 'styleCurriculum';
-    console.log('click1');
   }
   onClick3() {
     this.currentChoiceResponse = 3;
     this.styleCurriculum1 = 'styleCurriculum';
     this.styleCurriculum2 = 'styleCurriculum';
     this.styleCurriculum3 = 'styleCurriculumActive';
-    console.log('click1');
   }
 }
 

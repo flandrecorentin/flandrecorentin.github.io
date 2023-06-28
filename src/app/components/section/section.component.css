@@ -432,7 +432,7 @@ svg{
     font-size: 0.6rem;
   }
   #section {
-    margin: 20px 5px;
+    margin: 20px 8px;
   }
   #section:hover {
     animation: sectionAnimMini ease-in-out 1s infinite;
@@ -442,7 +442,7 @@ svg{
       transform: scale(1.0);
     }
     50%{
-      transform: scale(1.03);
+      transform: scale(1.025);
     }
     to{
       transform: scale(1.0);

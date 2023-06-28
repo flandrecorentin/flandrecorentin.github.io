@@ -10,7 +10,6 @@ export class ArtSectionComponent {
   numSlide = 1;
   changeSlide($event: number) {
     this.numSlide = $event;
-    console.log('change slide' + $event);
   }
 
   titleResult = [

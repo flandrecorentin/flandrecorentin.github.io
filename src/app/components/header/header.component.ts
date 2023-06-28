@@ -1,4 +1,4 @@
-import {Component, Input} from '@angular/core';
+import {Component, EventEmitter, Input, Output} from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -14,6 +14,11 @@ export class HeaderComponent {
   linkButtonHobbies = '#hobbies';
   // others buttons to display outside the homepage
 
-
+  languageEnglish(){
+    console.log("hello")
+  }
+  languageFrench(){
+    console.log("salut")
+  }
   styleClassHeader = 'styleHeader';
 }

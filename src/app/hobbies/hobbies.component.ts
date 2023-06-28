@@ -6,5 +6,4 @@ import {Component, Input} from '@angular/core';
   styleUrls: ['./hobbies.component.css']
 })
 export class HobbiesComponent {
-
 }

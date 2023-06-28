@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import {Input, NgModule} from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import {CurriculumComponent} from './curriculum/curriculum.component';
 import {HomePageComponent} from './homepage/homepage.component';
@@ -32,4 +32,5 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule {
+  @Input() language: number = 0;
 }

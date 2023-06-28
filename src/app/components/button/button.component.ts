@@ -9,4 +9,5 @@ export class ButtonComponent {
   @Input() text: string|undefined;
   @Input() link: string|undefined;
   @Input() styleClass: string = "styleDefault";
+  @Input() language: number = 0;
 }

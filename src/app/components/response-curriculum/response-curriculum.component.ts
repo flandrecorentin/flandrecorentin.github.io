@@ -10,6 +10,5 @@ export class ResponseCurriculumComponent {
   @Input() description: string | undefined;
   @Input() linkSVG: string | undefined;
   default(){
-    console.log('test');
   }
 }

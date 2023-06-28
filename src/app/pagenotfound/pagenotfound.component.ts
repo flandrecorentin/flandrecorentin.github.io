@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-pagenotfound',
@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./pagenotfound.component.css']
 })
 export class PageNotFoundComponent {
-
 }
