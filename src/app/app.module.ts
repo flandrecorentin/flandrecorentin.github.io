@@ -28,6 +28,7 @@ import { HobbiesArtComponent } from './hobbies-art/hobbies-art.component';
 import { CounterHobbiesComponent } from './components/counter-hobbies/counter-hobbies.component';
 import { ResultHobbiesComponent } from './components/result-hobbies/result-hobbies.component';
 import { OneHobbiesComponent } from './components/one-hobbies/one-hobbies.component';
+import {GlobalVariable} from "./global-variable";
 
 
 @NgModule({
@@ -63,7 +64,7 @@ import { OneHobbiesComponent } from './components/one-hobbies/one-hobbies.compon
         AppRoutingModule,
         AngularSvgIconModule,
     ],
-  providers: [],
+  providers: [GlobalVariable],
   bootstrap: [AppComponent]
 })
 export class AppModule {

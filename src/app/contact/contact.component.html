@@ -8,12 +8,12 @@
   </div>
   <div id="contacts">
     <div class="items-align">
-      <app-onecontact [title]="githubInfos[0]" [description]="githubInfos[1]" [link]="githubInfos[2]" [logo]="githubInfos[3]"></app-onecontact>
-      <app-onecontact [title]="mailInfos[0]" [description]="mailInfos[1]" [link]="mailInfos[2]" [logo]="mailInfos[3]"></app-onecontact>
+      <app-onecontact [title]="githubInfos[param.locale][0]" [description]="githubInfos[param.locale][1]" [link]="githubInfos[param.locale][2]" [logo]="githubInfos[param.locale][3]"></app-onecontact>
+      <app-onecontact [title]="mailInfos[param.locale][0]" [description]="mailInfos[param.locale][1]" [link]="mailInfos[param.locale][2]" [logo]="mailInfos[param.locale][3]"></app-onecontact>
     </div>
     <div class="items-align">
-      <app-onecontact [title]="linkedinInfos[0]" [description]="linkedinInfos[1]" [link]="linkedinInfos[2]" [logo]="linkedinInfos[3]"></app-onecontact>
-      <app-onecontact [title]="phoneInfos[0]" [description]="phoneInfos[1]" [link]="phoneInfos[2]" [logo]="phoneInfos[3]"></app-onecontact>
+      <app-onecontact [title]="linkedinInfos[param.locale][0]" [description]="linkedinInfos[param.locale][1]" [link]="linkedinInfos[param.locale][2]" [logo]="linkedinInfos[param.locale][3]"></app-onecontact>
+      <app-onecontact [title]="phoneInfos[param.locale][0]" [description]="phoneInfos[param.locale][1]" [link]="phoneInfos[param.locale][2]" [logo]="phoneInfos[param.locale][3]"></app-onecontact>
     </div>
   </div>
 </div>
