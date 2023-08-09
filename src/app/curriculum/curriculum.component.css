@@ -1,6 +1,6 @@
 #div-curriculum{
   background-color: #F8FDFF;
-  padding: 80px 0px 10px 0px;
+  padding: 80px 0 10px 0;
 }
 #head{
   padding: 30px;
@@ -13,7 +13,7 @@ h2{
 }
 
 #curriculum-choice{
-  margin: 20px 0px;
+  margin: 20px 0;
   /*//border: 2px solid red;*/
   justify-content: center;
   text-align: center;
@@ -28,8 +28,8 @@ h2{
 #div-linkCV{
   margin: 50px;
 }
-#linkCV{
-  margin-top: 100px;
+.linkCV{
+  margin: 100px 10px 0;
   text-decoration: none;
   color: var(--black1);
   padding: 10px;
@@ -38,7 +38,7 @@ h2{
   border-radius: 5px;
 }
 
-#linkCV:hover{
+.linkCV:hover{
   animation: sectionAnim ease-in-out 1s infinite;
   background:var(--gradient1);
 }
@@ -53,7 +53,7 @@ h2{
     transform: scale(1.0);
   }
 }
-#linkCV:active {
+.linkCV:active {
   background:var(--color5);
 }
 

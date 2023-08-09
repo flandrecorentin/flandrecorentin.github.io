@@ -1,4 +1,4 @@
-import {Component, Input} from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-projects',
@@ -10,15 +10,15 @@ export class ProjectsComponent {
     ['yes', 'fa-brands fa-github fa-2x'],
     ['no', 'fa-brands fa-github fa-2x'],
     ['yes', 'fa-regular fa-address-card fa-2x'],
-    ['yes', 'fa-brands fa-github fa-2x'],
+    ['yes', 'fa-solid fa-link fa-2xl'],
     ['yes',  'fa-brands fa-docker fa-2x'],
     ['yes',  'fa-brands fa-github fa-2x'],
     ['yes',  'fa-brands fa-java fa-3x'],
     ['yes',  'fa-brands fa-github fa-2x'],
     ['yes',  'fa-brands fa-github fa-2x'],
     ['yes',  'fa-brands fa-codepen   fa-2x'],
-    ['no',  'fa-brands fa-github fa-2x'],
-    ['no',  'fa-brands fa-github fa-2x']
+    ['yes',  'fa-brands fa-github fa-2x'],
+    ['yes',  'fa-brands fa-github fa-2x']
   ];
   imagesLinks=[
     ['assets/IT-projects/Pedagogical-Spreadsheet/test1.png', 'assets/IT-projects/Pedagogical-Spreadsheet/test2.png'],
@@ -38,15 +38,15 @@ export class ProjectsComponent {
     'https://github.com/flandrecorentin/Pedagogical-Spreadsheet',
     'https://github.com/flandrecorentin/Deliverapp',
     'about',
-    'https://github.com/flandrecorentin/Aperit\'IF',
+    'https://alexisreis.github.io/AperitIF/',
     'https://flandrecorentin.notion.site/Documentation-miniged-d0682cd62f4a48aea9d714b1e5daa6bf',
     'https://github.com/flandrecorentin/Messagerie4IF_G2_S1',
     'https://github.com/flandrecorentin/Mini-jeu_JAVA',
-    'https://github.com/flandrecorentin/', //TODO lien pour l'archive
+    'https://github.com/flandrecorentin/TrajetC/',
     'https://github.com/flandrecorentin/eau-the-l-eau',
-    'https://flandrecorentin.github.io/',
-    'https://github.com/flandrecorentin/FamilyWall',
-    'linkProject',
+    'https://flandrecorentin.github.io/Ancien-Portfolio-Flandre-Corentin/',
+    'https://github.com/flandrecorentin/familywall',
+    'https://github.com/flandrecorentin/Machine-Learning-Project',
   ];
   hobbies=[
     // [0] -> 1/x
@@ -82,7 +82,7 @@ export class ProjectsComponent {
       'Trajet C++ est une application sur terminal codé en C++ dans le cadre d\'un projet universitaire de 3° année d\'INSA. L\'application permet de gérer un catalogue de divers trajets et comporte de nombreuses fonctionnalités: impression du catalogue, ajout de trajet simple, ajout de trajet complexe (combinaise de trajets simples ou complexes), recherche, chargement d\'un catalogue, sauvegarde d\'un catalogue. Trajet C++ représente 16heures de travail et a été fait avec un ami..',
     ],
     // [8] -> 9/x
-    [   '[9] eau-the-l-eau (Intelligence Artificielle)',
+    [   '[9] eau-the-l-eau (TP IA)',
       'Derrière ce jeu de mot (plus que médiocre je vous l\'accorde) réalisé par moi même, se cache le jeu de l\'othello. Ce projet universitaire a pour but de s\'initier à l\'IA en analysant la puissance des algorithmes qui existent pour gagner à l\'othello et à la création d\'heuristiques pour améliorer/perfectionner l\'IA. On arrive à une IA capable de jouer en temps raisonnable le meilleur coup en profondeur 4. Le projet est réalisé en hexanôme tout en Prolog mais le code est grandement tiré de l\'utilisateur GitHub pchampio, nous avons principalement fait de l\'analyse et de la modification de code. Ce projet nous a pris 12h par personne.',
     ],
     // [9] -> 10/x
@@ -92,6 +92,10 @@ export class ProjectsComponent {
     // [10] -> 11/x
     [   '[11] FamilyWall',
       '[Projet en cours] FamilyWall est une application web de messagerie en ligne maximisant l\'expérience utilisateur à fort enjeu environnementaux et sociétaux. FamilyWall est très sécurisé (protocole de cryptage de bout en bout, fonctionnalités sans dangers: pas de suggestion d\'amis etc.), très respectueux de l\'environnement possible (suppression d\'historique au bout de X temps déterminé par l\'utilisateur, baisse de la qualité des fichiers médias sauf contre-indication de l\'utilisateur). L\'objectif de FamilyWall est de pouvoir communiquer à distance de manière simple et raisonnable :)',
-    ]
+    ],
+      // [11] -> 12/x
+      [   '[12] TP Machine Learning',
+      'Le TP (Travaux Pratique) de Machine Learning est un projet universitaire qui consiste à partir d\'un jeu de données d\'estimer/prédire au mieux le prix de vente d\'une maison. Il parcourt différentes notions de ML: classification, arbre de décision, compromis biais/variance, régression (linéaire, ridge, ridge à noyau), apprentissage bayésien, modèles de Marko, inférence variationnelle etc. Ce TP de Machine Learning en équipe de 3 représente 16h de travail par personne.',
+      ]
   ];
 }

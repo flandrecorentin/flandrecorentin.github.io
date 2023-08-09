@@ -7,18 +7,21 @@
     <span class="bar" id="bar4"></span>
   </div>
   <div id="div-linkCV">
-    <a id="linkCV" href="./assets/CV-Flandre-Corentin.pdf" download="CV-Flandre-Corentin.pdf">Télécharger mon CV</a>
+      <a class="linkCV" href="./assets/CV-Flandre-Corentin.pdf" download="CV-Flandre-Corentin-fr.pdf">{{textDownloadCV[0][param.locale]}}</a>
+<!--    <a class="linkCV" href="./assets/CV-Flandre-Corentin-fr.pdf" download="CV-Flandre-Corentin-fr.pdf">{{textDownloadCV[0][param.locale]}}</a>-->
+<!--    <a class="linkCV" href="./assets/CV-Flandre-Corentin-en.pdf" download="CV-Flandre-Corentin-en.pdf">{{textDownloadCV[1][param.locale]}}</a> -->
+<!--      TODO : french updated CV and english CV-->
   </div>
 
   <div id="curriculum-choice" class="items-align">
-    <app-button (click)="onClick1()" [text]="textButton[0]" [styleClass]="styleCurriculum1"></app-button>
-    <app-button (click)="onClick2()" [text]="textButton[1]" [styleClass]="styleCurriculum2"></app-button>
-    <app-button (click)="onClick3()" [text]="textButton[2]" [styleClass]="styleCurriculum3"></app-button>
+    <app-button (click)="onClick1()" [text]="textButton[param.locale][0]" [styleClass]="styleCurriculum1"></app-button>
+    <app-button (click)="onClick2()" [text]="textButton[param.locale][1]" [styleClass]="styleCurriculum2"></app-button>
+    <app-button (click)="onClick3()" [text]="textButton[param.locale][2]" [styleClass]="styleCurriculum3"></app-button>
   </div>
   <div id="curriculum-response">
-    <app-response-curriculum *ngIf="currentChoiceResponse==1" [title]="highschoolInfos[0]" [description]="highschoolInfos[1]" [linkSVG]="highschoolInfos[2]" ></app-response-curriculum>
-    <app-response-curriculum *ngIf="currentChoiceResponse==2" [title]="INSAInfos[0]" [description]="INSAInfos[1]" [linkSVG]="INSAInfos[2]"></app-response-curriculum>
-    <app-response-curriculum *ngIf="currentChoiceResponse==3" [title]="engineerInfos[0]" [description]="engineerInfos[1]" [linkSVG]="engineerInfos[2]"></app-response-curriculum>
+    <app-response-curriculum *ngIf="currentChoiceResponse==1" [title]="highschoolInfos[0][param.locale]" [description]="highschoolInfos[1][param.locale]" [linkSVG]="highschoolInfos[2][param.locale]" ></app-response-curriculum>
+    <app-response-curriculum *ngIf="currentChoiceResponse==2" [title]="INSAInfos[0][param.locale]" [description]="INSAInfos[1][param.locale]" [linkSVG]="INSAInfos[2][param.locale]"></app-response-curriculum>
+    <app-response-curriculum *ngIf="currentChoiceResponse==3" [title]="engineerInfos[0][param.locale]" [description]="engineerInfos[1][param.locale]" [linkSVG]="engineerInfos[2][param.locale]"></app-response-curriculum>
   </div>
 </div>
 
