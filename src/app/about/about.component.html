@@ -2,21 +2,21 @@
   <div id="head" class="text-align-center">
     <span class="bar" id="bar1"></span>
     <span class="bar" id="bar2"></span>
-    <h2>A propos du site</h2>
+    <h2>{{textTitleAbout[param.locale]}}</h2>
     <span class="bar" id="bar3"></span>
     <span class="bar" id="bar4"></span>
   </div>
-  <p id="description">{{textDescription}}</p>
-  <h3>Outil utilisés</h3>
+  <p id="description">{{textDescription[param.locale]}}</p>
+  <h3>{{textTitleToolsList[param.locale]}}</h3>
   <div class="list-outil">
-    <ul>Angular 15.0.4 : framework opensource basé sur Typescript</ul>
-    <ul>IntelliJ 2022.2.3 & WebStorm 2022.3 : IDE utilisés</ul>
-    <ul>Git 2.25.1 et GitHub : Logiciel de gestion de version et répertoire en ligne <a class="fa-brands fa-github fa-1x" id="link-github"  href="https://github.com/flandrecorentin" target="_blank"> Mon github</a></ul>
-    <ul>Figma : editeur de graphiques utilisé pour la maquette du site</ul>
-    <ul>Boxy-svg-app : outil pour la création d'image SVG</ul>
-    <ul>Font-awesome : outil et bibliothèque d'icones </ul>
-    <ul>SVG Repo : inspiration de quelques SVG</ul>
-    <ul>Google fonts : police d'écriture utilisés</ul>
-    <ul>Mon cerveau : car mine de rien il faut réfléchir parfois : )</ul>
+    <ul>{{toolList[param.locale][0]}}</ul>
+    <ul>{{toolList[param.locale][1]}}</ul>
+    <ul>{{toolList[param.locale][2]}}<a class="fa-brands fa-github fa-1x" id="link-github"  href="https://github.com/flandrecorentin" target="_blank">{{textGithub[param.locale]}}</a></ul>
+    <ul>{{toolList[param.locale][3]}}</ul>
+    <ul>{{toolList[param.locale][4]}}</ul>
+    <ul>{{toolList[param.locale][5]}}</ul>
+    <ul>{{toolList[param.locale][6]}}</ul>
+    <ul>{{toolList[param.locale][7]}}</ul>
+    <ul>{{toolList[param.locale][8]}}</ul>
   </div>
 </div>
