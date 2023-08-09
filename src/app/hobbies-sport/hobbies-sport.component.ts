@@ -1,4 +1,5 @@
-import {Component, Input} from '@angular/core';
+import {Component} from '@angular/core';
+import {GlobalVariable} from "../global-variable";
 
 @Component({
   selector: 'app-hobbies-sport',

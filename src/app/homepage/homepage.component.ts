@@ -1,4 +1,5 @@
-import {Component, Input} from '@angular/core';
+import {Component} from '@angular/core';
+import {GlobalVariable} from "../global-variable";
 
 @Component({
   selector: 'app-homepage',
@@ -6,18 +7,32 @@ import {Component, Input} from '@angular/core';
   styleUrls: ['./homepage.component.css'],
 })
 export class HomePageComponent {
-  textProjects = "Projets Informatiques";
-  textCurriculum = "Cursus";
+    constructor(public param: GlobalVariable) {
+    }
+  textProjects = ["Projets Informatiques", "IT/Computer Projects"];
+  textCurriculum = ["Cursus", "Curriculum"];
   textHobbies1 = "Sport";
   textHobbies2 = "Art";
   styleClassLeft = "route-label route-label-left";
   styleClassRight = "route-label route-label-right";
   styleClassDivLeft = "route-label-div-left";
   styleClassDivRight = "route-label-div-right";
-  curriculumInfos = ['Parcours universitaire et professionel', 'Découvez mon parcours universitaire et mon début dans le monde professionel', 'curriculum'];
-  projectsInfos = ['Projets informatiques', 'Découvrez tout mes projets personnels, universitaires et profesionnels', 'projects'];
-  sportInfos = ['Ma pratique de sport', 'Apprenez en plus sur tout mes hobbies et tout mes voyages en itinérance :)', 'sport'];
-  artInfos = ['Mes oeuvres artistiques', 'Visionnez quelqu unes de mes oeuvres physiques ou numériques', 'art'];
+  curriculumInfos = [
+      ['Parcours universitaire et professionel', 'Découvez mon parcours universitaire et mon début dans le monde professionel', 'curriculum'],
+      ['Academic and professional background', 'Discover my academic career and my start in the professional world', 'curriculum']
+  ];
+  projectsInfos = [
+      ['Projets informatiques', 'Découvrez tout mes projets personnels, universitaires et profesionnels', 'projects'],
+      ['IT Projects', 'Discover all my personal projects, academic and professional projects', 'projects']
+  ];
+  sportInfos = [
+      ['Ma pratique de sport', 'Apprenez en plus sur tout mes hobbies et tout mes voyages en itinérance :)', 'sport'],
+      ['My sports practice', 'Learn more about all my hobbies and all my roaming trips :)', 'sport']
+  ];
+  artInfos = [
+      ['Mes oeuvres artistiques', 'Visionnez quelques unes de mes oeuvres physiques ou numériques', 'art'],
+      ['My artistic works', 'View some pictures of my physical or digital works', 'art']
+  ];
 }
 
 

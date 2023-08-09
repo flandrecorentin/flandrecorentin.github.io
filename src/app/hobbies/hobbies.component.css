@@ -1,11 +1,14 @@
 p{
-  margin: 30px 100px;
+  margin: 30px 100px 0;
   padding: 15px;
   background-color: var(--black4);
   border-radius: 20px;
   font-size: 1.1rem;
 }
-
+#div-hobbies{
+  background-color: #F8FDFF;
+  padding-bottom: 30px;
+}
 @media screen and (max-width: 800px) {
   p{
     font-size: 0.8rem;

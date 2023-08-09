@@ -18,7 +18,6 @@ import { SectionComponent } from './components/section/section.component';
 import { SectionrouteComponent } from './components/sectionroute/sectionroute.component';
 import { OnecontactComponent } from './components/onecontact/onecontact.component';
 import { ResponseCurriculumComponent } from './components/response-curriculum/response-curriculum.component';
-import {AngularSvgIconModule} from "angular-svg-icon";
 import { SvgComponent } from './svg/svg.component';
 import { SportSectionComponent } from './components/sport-section/sport-section.component';
 import { ArtSectionComponent } from './components/art-section/art-section.component';
@@ -62,7 +61,6 @@ import {GlobalVariable} from "./global-variable";
     imports: [
         BrowserModule,
         AppRoutingModule,
-        AngularSvgIconModule,
     ],
   providers: [GlobalVariable],
   bootstrap: [AppComponent]

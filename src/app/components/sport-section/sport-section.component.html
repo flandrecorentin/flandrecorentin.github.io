@@ -1,5 +1,5 @@
 <div id="div-sport-section" class="text-align-center">
-  <p id="description">{{description}}</p>
+  <p id="description">{{description[param.locale]}}</p>
   <app-counter-hobbies [lengthCounter]="11" (slideEvent)="changeSlide($event)" ></app-counter-hobbies>
-  <app-result-hobbies [title]="titleResult[this.numSlide-1]" [description]="descriptionResult[this.numSlide-1]" [link]="imgResult[this.numSlide-1]" [altImg]="altImgResult[this.numSlide-1]" [alignment]="alignment[this.numSlide-1]"></app-result-hobbies>
+  <app-result-hobbies [title]="titleResult[param.locale][this.numSlide-1]" [description]="descriptionResult[param.locale][this.numSlide-1]" [link]="imgResult[this.numSlide-1]" [altImg]="altImgResult[param.locale][this.numSlide-1]" [alignment]="alignment[this.numSlide-1]"></app-result-hobbies>
 </div>
