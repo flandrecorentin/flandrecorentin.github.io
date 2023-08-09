@@ -9,7 +9,7 @@ import {GlobalVariable} from "../global-variable";
 export class ContactComponent {
   constructor(public param: GlobalVariable) {
   }
-
+  textTitleContact = ['Me contacter', 'Contact me']
   githubInfos= [
     ['GitHub', 'Retrouvez mon profil github avec tout mes projets publiques :)','https://github.com/flandrecorentin', 'fa-brands fa-github fa-3x'],
     ['GitHub', 'Find my github profile with all my public projects :)','https://github.com/flandrecorentin', 'fa-brands fa-github fa-3x']

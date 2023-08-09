@@ -26,7 +26,7 @@ import { HobbiesSportComponent } from './hobbies-sport/hobbies-sport.component';
 import { HobbiesArtComponent } from './hobbies-art/hobbies-art.component';
 import { CounterHobbiesComponent } from './components/counter-hobbies/counter-hobbies.component';
 import { ResultHobbiesComponent } from './components/result-hobbies/result-hobbies.component';
-import { OneHobbiesComponent } from './components/one-hobbies/one-hobbies.component';
+import { OneITprojectComponent } from './components/one-ITproject/one-ITproject.component';
 import {GlobalVariable} from "./global-variable";
 
 
@@ -56,7 +56,7 @@ import {GlobalVariable} from "./global-variable";
     HobbiesArtComponent,
     CounterHobbiesComponent,
     ResultHobbiesComponent,
-    OneHobbiesComponent,
+    OneITprojectComponent,
   ],
     imports: [
         BrowserModule,

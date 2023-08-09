@@ -2,14 +2,14 @@
   <div id="head" class="text-align-center">
     <span class="bar" id="bar1"></span>
     <span class="bar" id="bar2"></span>
-    <h2>Projets informatiques</h2>
+    <h2>{{textTitleITProjects[param.locale]}}</h2>
     <span class="bar" id="bar3"></span>
     <span class="bar" id="bar4"></span>
   </div>
   <div id="all-projects">
     <div *ngFor="let hobbie of hobbies; index as i; first as isFirst">
 <!--      <p>{{i}}</p>-->
-      <app-one-hobbies [logo]="isALink[i][1]" [isALink]="'yes'==isALink[i][0]" [link]="links[i]" [numberNum]="i" [title]="hobbies[i][0]" [description]="hobbies[i][1]" [imageLink]="imagesLinks[i]"></app-one-hobbies>
+      <app-one-ITproject [logo]="isALink[i][1]" [isALink]="'yes'==isALink[i][0]" [link]="links[i]" [numberNum]="i" [title]="hobbies[i][0]" [description]="hobbies[i][1]" [imageLink]="imagesLinks[i]"></app-one-ITproject>
     </div>
   </div>
 </div>

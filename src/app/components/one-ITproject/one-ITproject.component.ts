@@ -1,11 +1,11 @@
 import {Component, Input} from '@angular/core';
 
 @Component({
-  selector: 'app-one-hobbies',
-  templateUrl: './one-hobbies.component.html',
-  styleUrls: ['./one-hobbies.component.scss']
+  selector: 'app-one-ITproject',
+  templateUrl: './one-ITproject.component.html',
+  styleUrls: ['./one-ITproject.component.scss']
 })
-export class OneHobbiesComponent {
+export class OneITprojectComponent {
   @Input() numberNum:number = 0;
   @Input() imageLink:string[] =[];
   @Input() isALink:boolean = false;

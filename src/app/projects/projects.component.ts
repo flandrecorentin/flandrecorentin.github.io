@@ -1,4 +1,5 @@
 import {Component} from '@angular/core';
+import {GlobalVariable} from "../global-variable";
 
 @Component({
   selector: 'app-projects',
@@ -6,6 +7,14 @@ import {Component} from '@angular/core';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent {
+  constructor(public param: GlobalVariable) {
+  }
+  textTitleITProjects = ['Projets informatiques', 'IT/Computer projects']
+
+  // first project
+
+  // last project
+
   isALink=[
     ['yes', 'fa-brands fa-github fa-2x'],
     ['no', 'fa-brands fa-github fa-2x'],
