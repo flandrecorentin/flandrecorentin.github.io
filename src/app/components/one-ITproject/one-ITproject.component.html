@@ -7,17 +7,54 @@
         <i (click)="nextImage(numberNum+1)" id="arrow2">></i>
     </div>
     <div class="div-infos">
-      <h3>{{title}}</h3>
-      <p>{{description}}</p>
-      <a *ngIf="isALink" href="{{link}}" target="_blank" class="{{logo}}" class="logo"></a>
+      <h3>[{{numberNum+1}}] {{title}}</h3>
+      <div *ngFor="let tabtext of description; index as i; first as isFirst">
+        <!-- if manage bold -->
+        <div *ngIf="tabtext.length>1">
+          <p class="description">
+            <span *ngFor="let text of tabtext; index as j;">
+              <span *ngIf="j%2==0" class="description">{{text}}</span>
+              <span *ngIf="j%2==1" class="description-bold">{{text}}</span>
+            </span>
+          </p>
+        </div>
+        <!-- else not managed bold -->
+        <div *ngIf="tabtext.length==1">
+          <p class="description">{{tabtext}}</p>
+        </div>
+      </div>
+<!--      <a *ngIf="activeAllLinks" href="{{link}}" target="_blank" class="{{logoIfIsALink}}" class="logo"></a>-->
+      <div *ngIf="activeAllLinks" class="items-align links-container">
+        <div *ngFor="let onelink of links; index as i; first as isFirst">
+          <a *ngIf="onelink[0]" href="{{onelink[1]}}" target="_blank" class="{{onelink[2]}}" class="logo"></a>
+        </div>
+      </div>
     </div>
   </div>
 
   <div *ngIf="numberNum%2" class="items-align">
     <div class="div-infos">
-      <h3>{{title}}</h3>
-      <p>{{description}}</p>
-      <a *ngIf="isALink" href="{{link}}" target="_blank" class="{{logo}}" class="logo"></a>
+      <h3>[{{numberNum+1}}] {{title}}</h3>
+      <div *ngFor="let tabtext of description; index as i; first as isFirst">
+        <!-- if manage bold -->
+        <div *ngIf="tabtext.length>1">
+          <p class="description">
+            <span *ngFor="let text of tabtext; index as j;">
+              <span *ngIf="j%2==0" class="description">{{text}}</span>
+              <span *ngIf="j%2==1" class="description-bold">{{text}}</span>
+            </span>
+          </p>
+        </div>
+        <!-- else not managed bold -->
+        <div *ngIf="tabtext.length==1">
+          <p class="description">{{tabtext}}</p>
+        </div>
+      </div>
+      <div *ngIf="activeAllLinks" class="items-align links-container">
+        <div *ngFor="let onelink of links; index as i; first as isFirst">
+          <a *ngIf="onelink[0]" href="{{onelink[1]}}" target="_blank" class="{{onelink[2]}}" class="logo"></a>
+        </div>
+      </div>
     </div>
     <div class="div-image">
 <!--      <p class="number right">n°{{numberNum+1}}</p>-->

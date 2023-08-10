@@ -7,9 +7,8 @@
     <span class="bar" id="bar4"></span>
   </div>
   <div id="all-projects">
-    <div *ngFor="let hobbie of hobbies; index as i; first as isFirst">
-<!--      <p>{{i}}</p>-->
-      <app-one-ITproject [logo]="isALink[i][1]" [isALink]="'yes'==isALink[i][0]" [link]="links[i]" [numberNum]="i" [title]="hobbies[i][0]" [description]="hobbies[i][1]" [imageLink]="imagesLinks[i]"></app-one-ITproject>
+    <div *ngFor="let itProject of mapITProjects; index as i; first as isFirst">
+      <app-one-ITproject [title]="itProject.title[param.locale]" [description]="itProject.description[param.locale]" [imageLink]="itProject.imagesPaths" [activeAllLinks]="itProject.activeAllLinks" [links]="itProject.links" [numberNum]="i" [styleDisplay]="itProject.styleDisplay"></app-one-ITproject>
     </div>
   </div>
 </div>

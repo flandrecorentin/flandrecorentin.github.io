@@ -10,7 +10,7 @@ a{
   //border: orange 2px solid;
   //height: calc(15% - 20px);
   transition-duration: 0.2s;
-  padding: 2px 2px 0px 2px;
+  padding: 2px 2px 0 2px;
   border-radius: 3px;
   margin-top: 10px ;
 }
@@ -21,7 +21,7 @@ a:hover{
 }
 h3{
   //border: yellow 2px solid;
-  padding: 15px 0px;
+  padding: 15px 0;
   font-size: 1.5rem;
   //height: calc(15% - 20px);
 }
@@ -47,15 +47,29 @@ p{
 //  border-left: var(--black1) 3px solid;
 //  border-bottom: var(--black1) 3px solid;
 //}
+.links-container{
+  justify-content: center;
+}
 .logo{
   //border: 2px solid red;
   //background-color: var(--black4);
   //float: right;
   //width: calc(100% - 40px);
-  //padding: 5px 0px;
+  //padding: 5px 15px;
+  padding: 3px;
+  margin: 0 15px;
+}
+.description{
+  text-align: justify;
+  //padding: 7px;
+}
+.description-bold{
+  font-weight: bold;
+  font-size: 1.1rem;
 }
 #arrow1, #arrow2, #arrow3,#arrow4{
   //border: 2px red solid;
+  user-select: none;
   width: 40px;
   font-size: 3rem;
   font-weight: bold;
@@ -67,6 +81,7 @@ p{
 #arrow1:hover, #arrow2:hover, #arrow3:hover ,#arrow4:hover {
   background-color: var(--black1);
   color: var(--color1);
+  cursor : pointer;
 }
 #arrow1,#arrow3{
   border-bottom-left-radius: 15px;
@@ -79,8 +94,6 @@ p{
 i{
   top: 50%;
   //transform: translateY(50%);
-}
-#arrow1:hover, #arrow2:hover, #arrow3:hover,#arrow4:hover {
 }
 img{
   max-height: 400px;
@@ -128,21 +141,32 @@ img{
     font-size: 1.1rem;
     padding: 1px;
   }
-  p{
+  .description{
     font-size: 0.75rem;
-    padding: 2px;
+    word-spacing: 0;
+    //padding: 2px;
+  }
+  .description-bold{
+    font-weight: bold;
+    font-size: 0.85rem;
   }
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   h3{
     font-size: 0.9rem;
     padding: 1px;
   }
-  p{
-    font-size: 0.6rem;
-    padding: 2px;
+  .description{
+    font-size: 0.7rem;
+    word-spacing: 0;
+    line-spacing: 0;
+    //padding: 2px;
+  }
+  .description-bold{
+    font-weight: bold;
+    font-size: 0.8rem;
   }
   #div-one-hobbies{
     margin: 50px 5px;
@@ -162,5 +186,9 @@ img{
   #arrow1, #arrow2, #arrow3,#arrow4 {
     font-size: 2rem;
     padding: 15px 7px;
+  }
+  .links-container{
+    display: flex;
+    justify-content: center;
   }
 }

@@ -8,11 +8,12 @@ import {Component, Input} from '@angular/core';
 export class OneITprojectComponent {
   @Input() numberNum:number = 0;
   @Input() imageLink:string[] =[];
-  @Input() isALink:boolean = false;
-  @Input() logo:string | undefined;
-  @Input() link:string = "";
+  @Input() activeAllLinks:boolean = false;
+  @Input() logoIfIsALink:string | undefined;//todo: delete
+  @Input() links: [boolean, string, string][]|undefined;
   @Input() title:string | undefined;
-  @Input() description:string | undefined;
+  @Input() description: string[][] | undefined;
+  @Input() styleDisplay: string | undefined = "large-project";
   remainderDivision:number =(this.numberNum%2);
   numberImage = 0;
 
