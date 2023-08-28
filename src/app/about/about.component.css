@@ -91,7 +91,7 @@ ul{
 
 @media screen and (max-width: 800px) {
   h2{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   ul{
     font-size: 0.7rem;
@@ -101,5 +101,32 @@ ul{
   }
   #div-pageabout{
     padding: 80px 10px 20px 10px;
+  }
+  #bar1{
+    height: 5px;
+    width: 200px;
+    animation: strokeAnimationHorizontal 4s alternate-reverse infinite;
+    transform: translateX(-40%);
+  }
+
+  #bar2{
+    width: 5px;
+    height: 60px;
+    /*background-color: red;*/
+    transform: translateY(-25%) translateX(80px);
+    /*background-color: red;*/
+    animation: strokeAnimationVertical2Mini 1.5s alternate-reverse infinite;
+  }
+  #bar3{
+    height: 5px;
+    width: 200px;
+    transform: translateX(-40%);
+    animation: strokeAnimationHorizontal 2.5s alternate-reverse infinite;
+  }
+  #bar4{
+    width: 5px;
+    height: 60px;
+    transform: translateX(-80px) translateY(-80%);
+    animation: strokeAnimationVertical4Mini 2s alternate-reverse infinite;
   }
 }

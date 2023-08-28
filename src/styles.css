@@ -44,3 +44,33 @@ body{
   text-align: center;
 }
 
+
+
+
+
+@media screen and (max-width: 800px) {
+  @keyframes  strokeAnimationHorizontal{
+    from{
+      transform: translateX(-40%);
+    }
+    to{
+      transform: translateX(-52%);
+    }
+  }
+  @keyframes  strokeAnimationVertical2Mini{
+    from{
+      transform: translateY(-30%) translateX(85px);
+    }
+    to{
+      transform: translateY(-10%) translateX(85px);
+    }
+  }
+  @keyframes  strokeAnimationVertical4Mini{
+    from{
+      transform: translateX(-85px) translateY(-80%);
+    }
+    to{
+      transform: translateX(-85px) translateY(-65%);
+    }
+  }
+}

@@ -23,7 +23,6 @@
           <p class="description">{{tabtext}}</p>
         </div>
       </div>
-<!--      <a *ngIf="activeAllLinks" href="{{link}}" target="_blank" class="{{logoIfIsALink}}" class="logo"></a>-->
       <div *ngIf="activeAllLinks" class="items-align links-container">
         <div *ngFor="let onelink of links; index as i; first as isFirst">
           <a *ngIf="onelink[0]" href="{{onelink[1]}}" target="_blank" class="{{onelink[2]}}" class="logo"></a>

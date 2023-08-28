@@ -164,18 +164,18 @@ h2{
   }
   @keyframes  strokeAnimationVertical2Mini{
     from{
-      transform: translateY(-30%) translateX(80px);
+      transform: translateY(-30%) translateX(85px);
     }
     to{
-      transform: translateY(-10%) translateX(80px);
+      transform: translateY(-10%) translateX(85px);
     }
   }
   @keyframes  strokeAnimationVertical4Mini{
     from{
-      transform: translateX(-80px) translateY(-80%);
+      transform: translateX(-85px) translateY(-80%);
     }
     to{
-      transform: translateX(-80px) translateY(-65%);
+      transform: translateX(-85px) translateY(-65%);
     }
   }
 }

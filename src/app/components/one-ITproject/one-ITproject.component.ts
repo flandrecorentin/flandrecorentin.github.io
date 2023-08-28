@@ -9,7 +9,6 @@ export class OneITprojectComponent {
   @Input() numberNum:number = 0;
   @Input() imageLink:string[] =[];
   @Input() activeAllLinks:boolean = false;
-  @Input() logoIfIsALink:string | undefined;//todo: delete
   @Input() links: [boolean, string, string][]|undefined;
   @Input() title:string | undefined;
   @Input() description: string[][] | undefined;
