@@ -26,8 +26,13 @@ h2{
 
 /*// link CV*/
 #div-linkCV{
-  margin: 50px;
+  margin: 50px 0;
 }
+
+.custom-br{
+  margin: 40px 0;
+}
+
 .linkCV{
   margin: 100px 10px 0;
   text-decoration: none;
