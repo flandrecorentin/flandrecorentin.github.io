@@ -20,13 +20,13 @@ export class CurriculumComponent{
   styleCurriculum3 = 'styleCurriculum';
 
   textHighschool = [
-    'Collège dans les Vosges. Classe sportive tennis depuis la sixième. Brevet mention très bien. Lycée Georges Baumont de 2016 à 2018: bac scientifique sciences de l\'ingénieur  avec spécialité mathématique (Bac S-SI spé maths). Début de mes premiers projets en informatique. Obtention du bac mention très bien avec une moyenne de 17.55/20.',
+    'Collège dans les Vosges. Classe sportive tennis depuis la sixième. Brevet mention très bien. Lycée Georges Baumont de 2016 à 2018: bac scientifique sciences de l\'ingénieur  avec spécialité mathématiques (Bac S-SI spé maths). Début de mes premiers projets en informatique. Obtention du bac mention très bien avec une moyenne de 17.55/20.',
     'Middle school in the Vosges. Tennis sports class since middle school. Brevet with high honors. Highschool Georges Baumont from 2016 to 2018: scientist baccalaureate in engineer sciences with maths specialization. Start of my first IT projects. Graduated of highschool with high honors with the baccalaureate on average of 17.55/20.'
   ];
 
 
   textINSA = [
-    'INSA Lyon depuis 2019. Mon cursus d\'élève ingénieur (5ans) a débuté avec 2 ans de prépa-intégrée (Formation Initiale au Métier de l\'Ingénieur (FIMI)) afin d\'apprendre les bases de l\'ingénieurie et des sciences. Classé 57ème sur 800 au FIMI j\'ai obtenu le département Informatique (IF). 3 ans au département IF pour couvrir les thèmes de l\'informatique tel que IA, BigData, cybersécurité, DevOps. Total de 14 mois de stage. 6 mois d\'échange à Stochkolm (Suède) à l\'Institut royal de technologie (KTH). Grand investissement dans les associations de l\'INSA !',
+    'INSA Lyon depuis 2019. Mon cursus d\'élève ingénieur (5ans) a débuté avec 2 ans de prépa-intégrée (Formation Initiale au Métier de l\'Ingénieur (FIMI)) afin d\'apprendre les bases de l\'ingénierie et des sciences. Classé 57ème sur 800 au FIMI j\'ai obtenu le département Informatique (IF). 3 ans au département IF pour couvrir les thèmes de l\'informatique tel que IA, BigData, cybersécurité, DevOps. Total de 14 mois de stage. 6 mois d\'échange à Stochkolm (Suède) à l\'Institut royal de technologie (KTH). Grand investissement dans les associations de l\'INSA !',
     'INSA Lyon since 2019. My engineering student courses (5 years) began with 2 years of integrated preparation in order to learn the basics of engineering and science. Ranked 57th out of 800 after this 2 years. After the integrated preparation, I joined the Computer Science department to cover IT topics such as IA, BigData, Cybersecurity, Machine Learning and DevOps. Total of 14 months of internship. 6 months of exchange in Stockholm (Sweden) at the Royal Institute of Technology (KTH) are coming. Great investment in INSA associations.'
   ];
 

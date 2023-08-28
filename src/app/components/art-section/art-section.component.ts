@@ -11,7 +11,7 @@ export class ArtSectionComponent {
   }
 
   description = [
-    'Je pratique régulièrement le dessin (à crayons de couleurs aquarellables principalement). Je réalise aussi quelques dessin numériques (pixel art, courte animation et maquettes) qui me servent principalement dans mes projets personnels :).',
+    'Je pratique régulièrement le dessin (à crayons de couleurs aquarellables principalement). Je réalise aussi quelques dessins numériques (pixel art, courte animation et maquettes) qui me servent principalement dans mes projets personnels :).',
     'I regularly practice drawing (mainly with watercolor colored pencils). I also make some digital drawings (pixel art, short animation and models) which I use mainly in my personal projects :).'
   ];
   numSlide = 1;

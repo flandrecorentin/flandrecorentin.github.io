@@ -135,7 +135,7 @@ export class ProjectsComponent {
                 [
                     "Deliverapp est une application ",
                     "calculant les meilleures tournées de livraisons de colis",
-                    " à Lyon à vélo.  Cela prend en compte l'adresse et le créneau de livraison et les livreurs. Deliverapp proposent différentes fonctionnalités: ajout/modification/suppression d'une livraison, calcul de tournées, impression de la feuille de route (chemin et horaires d'une tournée), sauvegarde/chargement des listes de livraisons, ajout/suppresion rapide d'une livraison après calcul, etc."
+                    " à Lyon à vélo.  Cela prend en compte l'adresse et le créneau de livraison et les livreurs. Deliverapp propose différentes fonctionnalités : ajout / modification / suppression d'une livraison, calcul de tournées, impression de la feuille de route (chemin et horaires d'une tournée), sauvegarde / chargement des listes de livraisons, ajout / suppresion rapide d'une livraison après calcul, etc."
                 ],
                 [
                     "Projet universitaire en hexanôme de travail représentant 72h de travail par personne (moitié en cours/ moitié en dehors). Projet dans le cadre du cours ",
@@ -190,14 +190,14 @@ export class ProjectsComponent {
                     "cursus",
                     " scolaire et professionnel, mes différents ",
                     "projets informatiques",
-                    " (personnels, universitaire et professionels) et ainsi que mes ",
+                    " (personnels, universitaires et professionels) et ainsi que mes ",
                     "hobbies."
                 ],
                 [
                     "Projet représentant environ 70h de travail"
                 ],
                 [
-                    "Portfolio réalisé à l'aide du framework Angular (15.0.4). J'ai l'objectif d'avoir à l'avenir un nom de domaine à l'avenir."
+                    "Portfolio réalisé à l'aide du framework Angular (15.0.4). J'ai l'objectif d'avoir un nom de domaine à l'avenir."
                 ]
             ],
             // ENGLISH
@@ -244,7 +244,7 @@ export class ProjectsComponent {
                 // FRENCH
                 [
                     "Aperit'IF est un ",
-                    "moteur de recherche de cocktail et d'ingrédients",
+                    "moteur de recherche de cocktails et d'ingrédients",
                     ". Via la barre de recherche, Aperit'IF permet de chercher un cocktail à partir de son nom afin d'obtenir sa description, sa recette (avec les quantités en fonctions du nombre de personnes), une image et ses indices de services."
                 ],
                 [
@@ -306,7 +306,7 @@ export class ProjectsComponent {
                     "documents",
                     " de certains types contenant des ",
                     "schémas de métadonnées",
-                    " spécifiques et tout ca dans le ",
+                    " spécifiques et tout cela dans le ",
                     "cloud",
                     " ! miniged propose notamment un plan de classement de documents virtuel intelligent. "
                 ],
@@ -380,7 +380,7 @@ export class ProjectsComponent {
                 [
                     "C-Messagerie est une ",
                     "micro application type messagerie",
-                    " développé en ",
+                    " développée en ",
                     "C",
                     " uniquement. C-Messagerie utilise une ",
                     "architecture centralisée",
@@ -446,7 +446,7 @@ export class ProjectsComponent {
                 [
                     "Mini-jeu-Java est une application lourde de ",
                     "3 minis-jeux",
-                    " que j'ai développé lorsque j'ai commencé l'informatique. Cette plateforme comporte un ",
+                    " que j'ai développée lorsque j'ai commencé l'informatique. Cette plateforme comporte un ",
                     "démineur",
                     ", un ",
                     "casse-brique",
@@ -455,7 +455,7 @@ export class ProjectsComponent {
                     "'."
                 ],
                 [
-                    "Application codée en Java et utilisent la bibliothèque Swing pour l'interface (qui laisse certes à désirer ahaha). Cette application (l'une de mes premières) m'a fait découvrir les notions de POO, héritage, interface ect. Mini-jeu-Java date de 2020"
+                    "Application codée en Java et utilise la bibliothèque Swing pour l'interface (qui laisse certes à désirer ahaha). Cette application (l'une de mes premières) m'a fait découvrir les notions de POO, héritage, interface ect. Mini-jeu-Java date de 2020."
                 ],
                 [
                     ""
@@ -568,9 +568,9 @@ export class ProjectsComponent {
                     " au format terminal."
                 ],
                 [
-                    "Ce projet universitaire a pour but s'initier à l'IA en analysant la performance des algorithmes qui existent pour gagner à l'othello et à la ",
+                    "Ce projet universitaire a pour but de s'initier à l'IA en analysant la performance des algorithmes qui existent pour gagner à l'othello et à la ",
                     "création d'heuristiques",
-                    " pour améliorer/perfectionner l'IA. Nous sommes arriver à une IA capable de jouer en temps raisonnable (10s) le meilleur coup en profondeur 4. "
+                    " pour améliorer/perfectionner l'IA. Nous sommes arrivés à une IA capable de jouer en temps raisonnable (10s) le meilleur coup en profondeur 4. "
                 ],
                 [
                     "L'eau-the-l-eau a été réalisé en hexanome durant 12h tout en Prolog mais le code est grandement tiré de l'utilisateur Github pchampio: nous avons principalement fait de l'analyse de performance des algorithmes/heuristiques"
@@ -672,7 +672,7 @@ export class ProjectsComponent {
                 [
                     "[Projet en cours de développement] FamilyWall est une application web et mobile de ",
                     "messagerie en ligne",
-                    " maximisant l'expérience utilisateur et la sécurité à fort enjeu environnementaux et sociétaux."
+                    " maximisant l'expérience utilisateur et la sécurité à fort enjeux environnementaux et sociétaux."
                 ],
                 [
                     "FamilyWall ",
@@ -805,9 +805,9 @@ export class ProjectsComponent {
                 [
                     "Le projet est un ",
                     "compilateur d'un sous-ensemble du langage C",
-                    ". Le compilateur peut à partir d'un fichier correctment écrit en C reformulé le ",
+                    ". Le compilateur peut à partir d'un fichier correctement écrit en C, reformuler le ",
                     "code assembleur",
-                    " associé. Le compilateur est en mesure de donner certaines erreurs et des alertes lorsque elles sont détectés de la manière que le fait GNU Compiler Collection (gcc)"
+                    " associé. Le compilateur est en mesure de donner certaines erreurs et des alertes lorsqu'elles sont détectées de la même manière que le fait GNU Compiler Collection (gcc)"
                 ],
                 [
                     "Projet universitaire réalisé en hexanôme d'une durée de 2 semaines dans le cadre du cours 'Projet Compilateur'. Le projet a été piloté en utilisant par la méthode dite '",
@@ -873,7 +873,7 @@ export class ProjectsComponent {
                 [
                     "Mobilit'IF est une ",
                     "plateforme de renseignement sur les échanges universitaires",
-                    " à l'INSA qui rassemble des formulaires de retours d'expériences sur les destinations, une messagerie, une FAQ dynamique géré par des administrateurs. Mobilit'IF intègre aussi une dimension ",
+                    " à l'INSA qui rassemble des formulaires de retours d'expériences sur les destinations, une messagerie, une FAQ dynamique gérée par des administrateurs. Mobilit'IF intègre aussi une dimension ",
                     "R&D",
                     " avec l'intégration d'un chatbot capable de répondre aux questions utilisateurs sur ce sujet (non disponible à cause d'effets de bords probables) et un outil de '",
                     "scrapping",
@@ -885,7 +885,7 @@ export class ProjectsComponent {
                     " en informatique au sein de l'INSA"
                 ],
                 [
-                    "Ce projet universitaire réalisé en hexanôme est un projet techniquement complet rassemblant un backend (framework Spring), un frontend (framework Angular), une base de données MongoDB et la partie scrapping et chatbot est réalisé en Python"
+                    "Ce projet universitaire réalisé en hexanôme est un projet techniquement complet rassemblant un backend (framework Spring), un frontend (framework Angular), une base de données MongoDB et la partie scrapping et chatbot est réalisée en Python"
                 ]
             ],
             // ENGLISH
