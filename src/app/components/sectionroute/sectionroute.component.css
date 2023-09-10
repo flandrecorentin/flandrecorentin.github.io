@@ -8,7 +8,7 @@
   background-color: var(--color3);
   position: absolute;
   margin-top: 150px;
-  min-width: 100px;
+  min-width: 80px;
   /*transform: translateZ(50%);*/
 }
 h3{
@@ -61,7 +61,7 @@ h3{
 
 @media screen and (max-width: 800px) {
   h3{
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
   #part-section-route{
     padding: 10px 0px;

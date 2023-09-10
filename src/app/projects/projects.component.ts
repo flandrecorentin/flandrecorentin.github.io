@@ -929,21 +929,21 @@ export class ProjectsComponent {
 
     // first project is 1
     mapITProjects = [
-        this.pedagogicalSpreadsheetInfos,          // [1]
-        this.deliverAppInfos,                      // [2]
-        this.portfolioInfos,                       // [3]
-        this.aperitIFInfos,                        // [4]
-        this.minigedInfos,                         // [5]
-        this.messagingCInfos,                      // [6]
-        this.miniGameJavaInfos,                    // [7]
-        this.journeyCPPInfos,                      // [8]
-        this.othelloInfos,                         // [9]
-        this.oldPortfolioInfos,                    // [10]
-        this.familyWallInfos,                      // [11]
-        this.machineLearningInfos,                 // [12]
-        this.compilerInfos,                        // [13]
-        this.mobilitIFInfos,                       // [14]
-        // this.Infos,                  // [15]
+        this.pedagogicalSpreadsheetInfos,
+        this.deliverAppInfos,
+        this.portfolioInfos,
+        this.aperitIFInfos,
+        this.mobilitIFInfos,
+        this.minigedInfos,
+        this.messagingCInfos,
+        this.miniGameJavaInfos,
+        this.journeyCPPInfos,
+        this.othelloInfos,
+        this.oldPortfolioInfos,
+        this.familyWallInfos,
+        this.compilerInfos,
+        this.machineLearningInfos,
+        // this.Infos,
     ]
     // last project is x
 
