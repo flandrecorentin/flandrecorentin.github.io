@@ -425,6 +425,13 @@ svg{
 
 
 @media screen and (max-width: 800px) {
+  .items-align{
+    display: grid;
+  }
+  .img-art{
+    max-width: 200px;
+    max-height: 200px;
+  }
   #h3-section{
     font-size: 0.8rem;
   }

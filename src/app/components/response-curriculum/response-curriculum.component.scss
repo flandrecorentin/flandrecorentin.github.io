@@ -5,7 +5,7 @@
   box-shadow: 3px 4px 2px var(--black2);
 }
 #h3-svg{
-  width: 400px;
+  //width: 400px;
   text-align: center;
   //border: 2px yellow solid;
 }
@@ -33,9 +33,16 @@ iframe{
     font-size: 1rem;
   }
   p{
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
   iframe{
     max-width: 200px;
+  }
+  .items-align{
+    display: grid;
+  }
+  #h3-svg{
+    text-align: center;
+    margin: auto;
   }
 }
