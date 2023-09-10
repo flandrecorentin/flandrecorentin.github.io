@@ -104,3 +104,21 @@ header{
     /*border: none;*/
   }
 }
+
+@media screen and (max-width: 405px) {
+  .link-same-page {
+    font-size: 0.5rem;
+    padding: 25px 2px;
+    /*border: none;*/
+  }
+  #link-same-page-home{
+    padding: 15px 0 0 0;
+    font-size: 1.5rem;
+    /*border: none;*/
+  }
+  #link-same-page-projects{
+    font-size: 0.5rem;
+    padding: 20px 2px;
+    max-width: 50px;
+  }
+}
