@@ -184,3 +184,9 @@ h2{
     }
   }
 }
+
+@media screen and (max-width: 366px) {
+  .linkCV{
+    font-size: 0.8rem;
+  }
+}

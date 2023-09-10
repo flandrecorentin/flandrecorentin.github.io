@@ -26,3 +26,12 @@ footer{
     font-size: 0.6rem;
   }
 }
+
+@media screen and (max-width: 366px) {
+  #footer-text{
+    font-size: 0.48rem;
+  }
+  #right-copyright{
+    font-size: 0.48rem;
+  }
+}

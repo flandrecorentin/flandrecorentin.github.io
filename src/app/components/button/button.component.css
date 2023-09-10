@@ -100,3 +100,21 @@
     font-size: 0.6rem;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .styleCurriculum, .styleCurriculumActive{
+    padding: 2px;
+    margin: 0 5px;
+    font-size: 0.8rem;
+    max-width: 60px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .styleCurriculum, .styleCurriculumActive{
+    padding: 1px;
+    margin: 2px;
+    font-size: 0.6rem;
+    max-width: 50px;
+  }
+}

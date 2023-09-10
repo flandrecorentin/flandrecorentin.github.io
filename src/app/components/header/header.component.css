@@ -107,7 +107,7 @@ header{
 
 @media screen and (max-width: 405px) {
   .link-same-page {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     padding: 25px 2px;
     /*border: none;*/
   }
@@ -117,8 +117,8 @@ header{
     /*border: none;*/
   }
   #link-same-page-projects{
-    font-size: 0.5rem;
-    padding: 20px 2px;
-    max-width: 50px;
+    font-size: 0.56rem;
+    padding: 19px 2px;
+    max-width: 65px;
   }
 }
