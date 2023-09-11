@@ -85,7 +85,7 @@ export class ProjectsComponent {
             [
                 // FRENCH
                 [
-                    "Pedagogical-Spreadsheet est une application de type ",
+                    "[Projet en cours de développement] Pedagogical-Spreadsheet est une application de type ",
                     "tableur",
                     " gérant des feuilles de calcul ",
                     "pour l'apprentissage des outils scientifiques de manière éducative",
@@ -97,7 +97,7 @@ export class ProjectsComponent {
             // ENGLISH
             [
                 [
-                    "Pedagogical-Spreadsheet is an application of type ",
+                    "[Project under development] Pedagogical-Spreadsheet is an application of type ",
                     "spreadsheet",
                     " managing spreadsheets ",
                     "for learning scientific tools in an educational way",

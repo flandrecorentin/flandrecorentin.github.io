@@ -73,7 +73,7 @@ export class ArtSectionComponent {
   altImgResult = [
     [
       'Photo non disponible - dessin planisphère',
-      'Photo non disponible - dessins SVG animations',
+      'Photo non disponible - dessins SVG animations [Sera rajouté au prochain déploiement]',
       'Photo non disponible - dessin forêt avec montagne enneigée',
       'Photo non disponible - dessin plage au bord de l\'océan avec des voiliers et un phare',
       'Photo non disponible - dessin d\'une villa en nuance de noir',

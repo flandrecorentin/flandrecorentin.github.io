@@ -30,7 +30,7 @@ export class HomePageComponent {
       ['My sports practice', 'Learn more about all my hobbies and all my roaming trips :)', 'sport']
   ];
   artInfos = [
-      ['Mes oeuvres artistiques', 'Visionnez quelques unes de mes oeuvres physiques ou numériques', 'art'],
+      ['Mes oeuvres artistiques', 'Visionnez quelques unes de mes oeuvres physiques', 'art'],
       ['My artistic works', 'View some pictures of my physical or digital works', 'art']
   ];
 }
