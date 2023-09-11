@@ -10,7 +10,7 @@ export class CurriculumComponent{
   constructor(public param: GlobalVariable) {
   }
   textTitleCurriculum = ["Cursus", "Curriculum"]
-  textDownloadCV = [['Télécharger mon CV (français)','Download my french CV'],['Télécharger mon CV (anglais)','Download my english CV']]
+  textDownloadCV = [['Télécharger mon CV français','Download my french CV'],['Télécharger mon CV anglais','Download my english CV']]
   textButton = [
     ['Collège Lycée', 'INSA Lyon', 'KTH', 'Ingénieur :)'],
     ['Middle/High school', 'INSA Lyon', 'KTH ','Engineer :)']
