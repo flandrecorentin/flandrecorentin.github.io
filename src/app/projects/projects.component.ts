@@ -70,6 +70,69 @@ export class ProjectsComponent {
         styleDisplay: ""
     }
 
+  // StravaSeries
+  stravaSeries: {
+    title: string[],
+    description: string[][][], // manage bold|important text alterning between not bold and bold
+    activeAllLinks: boolean,  // yes|no and logo
+    imagesPaths: string  [],
+    links?: [boolean, string, string][],
+    styleDisplay?: string
+  } = {
+    title: ["Strava-Series", "Strava-Series"],
+    description: [
+      [
+        // FRENCH
+        [
+          "[Projet en cours de développement] Strava-Series est une ",
+          "extension Strava ",
+          "qui permet de gérer des ensembles d'activités. Il est possible de créer des séries de type ",
+          "Itinérance, Randonnée, Vélotaf et Thriatlon. "
+        ],
+        [
+          "Strava-Series permet ainsi de faire un resumé statistiques total de la série ",
+          "automatiquement à partir de votre profil Strava",
+          " (total distance, temps, D+, nombre de jours actifs etc.). L'objectif est aussi de créer une carte global retracant le parcours d'une itinérance/randonnée, s'affronter entre amis sur des stastistiques de vélotaf. Une fonctionnalité que je souhaiterai implémenté serai une suggestion, avec modèle ML, d'une série potentiel à faire parmi ses abonnés Strava.",
+        ],
+        [
+          "Le projet utilise les API et les services de Strava. A chaque nouvelle fonctionnalité majeure, je réalise le déploiement sur mon domaine dédié."
+        ]
+      ],
+      // ENGLISH
+      [
+        [
+          "[Project under development] Strava-Series is a ",
+          "Strava extension ",
+          "hat allows managing sets of activities. It is possible to create series of types such as ",
+          "Itinerancy, Hiking, Velotaf (Cycling work), and Triathlon."
+        ],
+        [
+          "Strava-Series enables generating a comprehensive statistical summary of the series ",
+          "automatically from your Strava profile ",
+          "(total distance, time, elevation gain, number of active days, etc.). The goal is also to create a global map retracing the route of a trek/hike, compete with friends on bike commuting statistics. One feature that I would like to implement is a suggestion, using ML models, of a potential series to do among Strava subscribers.",
+        ],
+        [
+          "The project uses Strava's APIs and services. With each new major feature, I deploy it on my dedicated domain."
+        ]
+      ]
+    ],
+    activeAllLinks: true,
+    links: [
+      [true, "https://github.com/flandrecorentin/strava-series", "fa-brands fa-github fa-2x"],
+      [true, "https://strava-series.flandrecorentin.com/", "fa-solid fa-link fa-2xl"],
+      [false, "", "fa-brands fa-docker fa-2x"],
+      [false, "", "fa-brands fa-java fa-3x"],
+      [false, "", "fa-brands fa-java fa-3x"],
+      [false, "", "fa-solid fa-download fa-2xl"]
+    ],
+    imagesPaths: [
+      'assets/IT-projects/Strava-Series/series.png',
+      'assets/IT-projects/Strava-Series/profile.png',
+      'assets/IT-projects/Strava-Series/connection.png'
+    ],
+    styleDisplay: ""
+  }
+
 
     // Pedagogical Spreadsheet
     pedagogicalSpreadsheetInfos: {
@@ -85,7 +148,7 @@ export class ProjectsComponent {
             [
                 // FRENCH
                 [
-                    "[Projet en cours de développement] Pedagogical-Spreadsheet est une application de type ",
+                    "[Projet non finie] Pedagogical-Spreadsheet est une application de type ",
                     "tableur",
                     " gérant des feuilles de calcul ",
                     "pour l'apprentissage des outils scientifiques de manière éducative",
@@ -97,7 +160,7 @@ export class ProjectsComponent {
             // ENGLISH
             [
                 [
-                    "[Project under development] Pedagogical-Spreadsheet is an application of type ",
+                    "[Project not finish yet] Pedagogical-Spreadsheet is an application of type ",
                     "spreadsheet",
                     " managing spreadsheets ",
                     "for learning scientific tools in an educational way",
@@ -929,6 +992,7 @@ export class ProjectsComponent {
 
     // first project is 1
     mapITProjects = [
+        this.stravaSeries,
         this.pedagogicalSpreadsheetInfos,
         this.deliverAppInfos,
         this.portfolioInfos,

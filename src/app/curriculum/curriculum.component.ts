@@ -12,8 +12,8 @@ export class CurriculumComponent{
   textTitleCurriculum = ["Cursus", "Curriculum"]
   textDownloadCV = [['Télécharger mon CV français','Download my french CV'],['Télécharger mon CV anglais','Download my english CV']]
   textButton = [
-    ['Collège Lycée', 'INSA Lyon', 'KTH', 'Ingénieur :)'],
-    ['Middle/High school', 'INSA Lyon', 'KTH ','Engineer :)']
+    ['Collège Lycée', 'INSA Lyon', 'KTH', 'Ingénieur'],
+    ['Middle/High school', 'INSA Lyon', 'KTH ','Engineer']
   ];
   styleCurriculum1 = 'styleCurriculum';
   styleCurriculum2 = 'styleCurriculumActive';
@@ -32,12 +32,12 @@ export class CurriculumComponent{
   ];
 
   textKTH = [
-    "KTH (fr: Ecole Royale Polytechnique) en Suède à Stockholm. Six mois d'échange universitaire pour améliorer mon niveau d'anglais. Spécialisation dans les domaines de la Cybersécurité, du Machine Learning et des Technologies Distribuées (solutions distribuées et blockchains). Découverte de la culture suédoise et apprentissage du suédois.",
-    "KTH (fr: Royal Institute of Technology) in Sweden in Stockholm. Six months of university exchange to improve my English proficiency. Specialization in the fields of Cybersecurity, Machine Learning, and Distributed Technologies (distributed solutions and blockchains). Discovering Swedish culture and learning Swedish."
+    "KTH (fr: Ecole Royale Polytechnique) en Suède à Stockholm. Six mois d'échange universitaire pour améliorer mon niveau d'anglais. Suivi des cours de Cybersécurité, de Machine Learning et Développement de logiciels à grande échelle. Découverte de la culture suédoise et apprentissage du suédois.",
+    "KTH (fr: Royal Institute of Technology) in Sweden in Stockholm. Six months of university exchange to improve my English proficiency. Courses of  Cybersecurity, Machine Learning, and Large-Scale Software Development . Discovering Swedish culture and learning Swedish."
   ]
 
-  textEngineer = ['Ingénieur en devenir (diplômé en 2024) j\'ai réalisé pour l\'instant 3 stages (en data et en développement web). Je recherche un stage de fin d\'étude (PFE) qui peut déboucher sur un CDI. En perso, réalisation de différents sites webs pour des clients/entreprises. Enseigne/donne des cours d\'informatiques et de mathématiques à des classes de première et deuxième année à l\'INSA',
-    "I will be engineer (graduated in 2024). I have so far completed 3 internships (in data and web development). I am looking for an end-of-study internship (6 months) wich can lead to a permanent contract. Personally, creation of various websites for clients/companies. Teaches/gives courses in computer science and especially mathematics to first and second year classes at INSA"
+  textEngineer = ['Ingénieur diplômé en juin 2024 j\'ai réalisé pour l\'instant 3 stages (en génie logiciel et ML). J\'ai dispensé des cours d\'informatiques et de mathématiques à des classes de première et deuxième année à l\'INSA. Je suis à la recherche d\'une nouvelle opportunité dans l\'objectif de travailler dans un environnement technique complexe (ouvert pour travailler à l\'international).',
+    "I will be graduated in jube 2024. I have so far completed 3 internships (software engineering and ML). I also teaches/gives courses in computer science and mathematics to first and second year classes at INSA. I'm looking for a new position (open to working aboard) with the aim of working in a complex technical environment."
   ];
 
   highschoolInfos = [['Collège&Lycée', 'Middle/High school'], this.textHighschool, ['SVG1', 'SVG1']];
