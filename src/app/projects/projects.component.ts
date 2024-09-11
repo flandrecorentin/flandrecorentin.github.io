@@ -133,6 +133,75 @@ export class ProjectsComponent {
     styleDisplay: ""
   }
 
+  // 3D.Tetris
+  tetris3D: {
+    title: string[],
+    description: string[][][], // manage bold|important text alterning between not bold and bold
+    activeAllLinks: boolean,  // yes|no and logo
+    imagesPaths: string  [],
+    links?: [boolean, string, string][],
+    styleDisplay?: string
+  } = {
+    title: ["3D.Tetris", "3D.Tetris"],
+    description: [
+      [
+        // FRENCH
+        [
+          "3D.Tetris est une reprise du fameux jeu ",
+          "Tetris",
+          " mais ",
+          "en 3D !",
+          " Toutes les ",
+          "translations et rotations",
+          " des pièces sont possibles."
+        ],
+        [
+          "Le projet m'a permis de découvrir le monde de l'infographie en mettant en place des ",
+          "scènes 3D dans les navigateurs web. ",
+          "Cela comprend la gestion ",
+          "des scènes, des caméras, des objets, des textures, des lumières, des animations, etc",
+          " Le projet utilise notamment la bibliothèque ",
+          "Three.js",
+          ""
+        ],
+      ],
+      // ENGLISH
+      [
+        [
+          "3D.Tetris is a reimagining of the famous game ",
+          "Tetris",
+          " but ",
+          "in 3D!",
+          " All ",
+          "translations and rotations",
+          " of the pieces are possible."
+        ],
+        [
+          "The project allowed me to discover the world of computer graphics by setting up ",
+          "3D scenes in web browsers. ",
+          "This includes management of ",
+          "scenes, cameras, objects, textures, lights, animations and etc.",
+          " The project notably uses the library ",
+          "Three.js",
+          ""
+        ]
+      ]
+    ],
+    activeAllLinks: true,
+    links: [
+      [true, "https://flandrecorentin.github.io/3D.tetris/", "fa-solid fa-link fa-2xl"],
+      [true, "https://github.com/flandrecorentin/3D.tetris/", "fa-brands fa-github fa-2x"],
+      [false, "", "fa-brands fa-docker fa-2x"],
+      [false, "", "fa-brands fa-java fa-3x"],
+      [false, "", "fa-brands fa-java fa-3x"],
+      [false, "", "fa-solid fa-download fa-2xl"]
+    ],
+    imagesPaths: [
+      'assets/IT-projects/Tetris3D/game.jpg',
+    ],
+    styleDisplay: ""
+  }
+
 
     // Pedagogical Spreadsheet
     pedagogicalSpreadsheetInfos: {
@@ -993,6 +1062,7 @@ export class ProjectsComponent {
     // first project is 1
     mapITProjects = [
         this.stravaSeries,
+        this.tetris3D,
         this.pedagogicalSpreadsheetInfos,
         this.deliverAppInfos,
         this.portfolioInfos,

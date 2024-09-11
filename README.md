@@ -1,5 +1,18 @@
 # Portfolio-Flandre-Corentin
 
+## How to deploy on username.github.io
+
+1. Build artifact in the /docs/ repository
+```
+ng build --output-path docs --base-href /docs/
+```
+
+2. Copy *docs/index.html* and rename *404.html* (Default fall page)
+
+3. Commit on your branch *gh-pages* and push on your username.github.io repository
+
+4. Go on your GitHub repository and settings/pages option 
+
 This project was initially generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
 ## Development server
